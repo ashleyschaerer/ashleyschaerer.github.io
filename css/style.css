@@ -68,13 +68,15 @@ body {
 
 }*/
 
+.menu {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .navmenu {
   text-decoration: none;
   color: #262626;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: grid;
-  grid-gap: 32px;
 
 }
 
