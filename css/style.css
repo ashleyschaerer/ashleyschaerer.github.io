@@ -1,0 +1,178 @@
+html {
+  /***base size***/
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*, *:before,* :after {
+ box-sizing: border-box;
+}
+
+body {
+  color: #262626;
+  font-family: 'Montserrat';
+  background-color: white;
+
+}
+
+
+.container {
+  background-color: green;
+  margin: 0 auto;
+  width: 375px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.TopNav {
+  font-size: 1.6em;
+  display: grid;
+  grid-column: span 6;
+  grid-gap: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Logo {
+  margin: 0 auto;
+  padding-top: 48px;
+  grid-column: span 6;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.NavLinks {
+  margin: 0 auto;
+  padding-top:12px;
+  display: grid;
+  grid-gap: 16px;
+  text-align: center;
+  grid-template-columns: 2fr 2fr 2fr;
+  background-color: yellow;
+
+
+}*/
+
+.divNavLinks {
+  display: grid;
+  grid-gap: 32px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: red;
+  padding-top: 8px;
+  text-align: center;
+
+}
+
+
+.navmenu {
+  text-decoration: none;
+  color: #262626;
+
+}
+
+.navmenubold {
+  text-decoration: none;
+  color: #262626;
+  font-weight: 800;
+}
+
+.Portrait {
+  margin: 0 auto;
+  padding-top: 72px;
+  grid-column: span 6;
+  display: grid;
+
+}
+
+.Story {
+  padding: 16px;
+  grid-column: span 6;
+}
+
+.Link {
+  color: #FF6F61;
+  font-size: 1.6em;
+  text-decoration: none;
+  padding-top: 16px;
+}
+
+
+h4{
+  font-size: 1.6em;
+  font-weight: 800;
+  line-height: 4;
+}
+
+p {
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+footer {
+  background-color: #F2F6F2;
+  display: grid;
+  grid-gap: 16px;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+
+}
+
+.icons {
+  padding-top: 32px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.CopyrightAndButton {
+  display: grid;
+  padding-top: 32px;
+  grid-gap: 16px;
+  grid-template-columns: 5fr 1fr;
+  background-color: yellow;
+}
+
+.Copyright {
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #767876;
+  background-color: orange;
+}
+
+
+
+
+
+/*.TopNav {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: yellow;*/
+
+}
+
+
+
+
+/*.Story {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+} */
