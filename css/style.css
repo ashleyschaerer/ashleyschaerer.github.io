@@ -45,19 +45,19 @@ body {
   justify-content: center;
 }
 
-/*.NavLinks {
-  margin: 0 auto;
-  padding-top:12px;
+.NavLinks {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 32px;
+  margin: 0 auto;
+  grid-column: span 6;
+  background-color: red;
+  padding-top: 8px;
   text-align: center;
-  grid-template-columns: 2fr 2fr 2fr;
-  background-color: yellow;
 
 
-}*/
+}
 
-.divNavLinks {
+/*.divNavLinks {
   display: grid;
   grid-gap: 32px;
   margin: 0 auto;
@@ -66,12 +66,15 @@ body {
   padding-top: 8px;
   text-align: center;
 
-}
+}*/
 
 
 .navmenu {
   text-decoration: none;
   color: #262626;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 32px;
 
 }
 
