@@ -16,8 +16,12 @@ body {
 }
 
 
+
+
+/***Bio***/
+
 .container {
-  background-color: green;
+  background-color: #FFE2E2;
   margin: 0 auto;
   width: 375px;
   display: grid;
@@ -50,6 +54,7 @@ body {
   grid-gap: 32px;
   margin: 0 auto;
   grid-column: span 6;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: red;
   padding-top: 8px;
   text-align: center;
@@ -67,12 +72,6 @@ body {
   text-align: center;
 
 }*/
-
-.menu {
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 .navmenu {
   text-decoration: none;
@@ -153,31 +152,91 @@ footer {
   letter-spacing: 0.1em;
   color: #767876;
   background-color: orange;
+  padding-top: 10px;
 }
 
 
 
 
 
-/*.TopNav {
+
+/***Case Study***/
+
+.Healthvitae {
+  padding: 16px;
+  grid-column: span 6;
   display: grid;
-  grid-gap: 10px;
-  justify-content: center;
+}
+
+.Hero {
+  grid-gap: 16px;
+  display: grid;
+  margin: 0 auto;
+  grid-column: span 6;
+  grid-template-columns: 1fr 1fr;
+}
+
+.IntroductionStatement {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  background-color: yellow;
+  font-weight: 700;
+  font-family: 'Raleway';
+  font-size: 3.2em;
+  line-height: 1.5;
+}
+
+.IntroductionStatementTWO {
+  display: grid;
+  margin: 0 auto;
+  grid-column: span 6;
+  background-color: green;
+  font-weight: 700;
+  font-family: 'Raleway';
+  font-size: 3.2em;
+  line-height: 1.5;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-color: yellow;*/
+  justify-content: center;
+  grid-template-columns: 1fr 1fr ;
+
 
 }
 
+.WavingHand {
+  background-color: blue;
 
+  padding-left: 8px;
 
-
-/*.Story {
-  font-size: 16px;
-  font-weight: 400;
 }
 
-h4 {
-  font-family: 'Montserrat';
-  font-weight: 800;
-} */
+.Statement {
+
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 1.8em;
+  grid-column: span 6;
+}
+
+.Project {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+}
+
+.ProjectText {
+  padding-top: 24px;
+  display: grid;
+  grid-column: span 6;
+  text-align: center;
+  margin: 0 auto;
+  /*align-items: center;
+  justify-content: center;*/
+
+}
+
+.HomepageHeroImage {
+
+}
