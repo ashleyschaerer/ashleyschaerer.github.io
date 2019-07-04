@@ -26,7 +26,7 @@ body {
   width: 375px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
+  /*grid-gap: 16px;*/
   align-items: center;
   justify-content: center;
 
@@ -36,7 +36,7 @@ body {
   font-size: 1.6em;
   display: grid;
   grid-column: span 6;
-  grid-gap: 16px;
+  /*grid-gap: 16px;*/
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -56,7 +56,7 @@ body {
   grid-column: span 6;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: red;
-  padding-top: 8px;
+  /*padding-top: 8px;*/
   text-align: center;
 
 
@@ -96,6 +96,7 @@ body {
 .Story {
   padding: 16px;
   grid-column: span 6;
+  background-color: yellow;
 }
 
 .Link {
@@ -105,6 +106,13 @@ body {
   padding-top: 16px;
 }
 
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 2.4em;
+  font-weight: 700;
+  text-align: center;
+}
 
 h4{
   font-size: 1.6em;
@@ -140,7 +148,7 @@ footer {
 
 .CopyrightAndButton {
   display: grid;
-  padding-top: 32px;
+
   grid-gap: 16px;
   grid-template-columns: 5fr 1fr;
   background-color: yellow;
@@ -160,74 +168,68 @@ footer {
 
 
 
-/***Case Study***/
+/***homepage***/
 
-.Healthvitae {
-  padding: 16px;
-  grid-column: span 6;
-  display: grid;
-}
+
 
 .Hero {
-  grid-gap: 16px;
+  background-color: orange;
+  /*padding-top: 40px;*/
   display: grid;
   margin: 0 auto;
   grid-column: span 6;
   grid-template-columns: 1fr 1fr;
+
 }
 
 .IntroductionStatement {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  background-color: yellow;
   font-weight: 700;
   font-family: 'Raleway';
   font-size: 3.2em;
-  line-height: 1.5;
+  /*background-color: yellow;*/
 }
 
 .IntroductionStatementTWO {
+  /*padding-top: 7px;*/
   display: grid;
   margin: 0 auto;
   grid-column: span 6;
-  background-color: green;
   font-weight: 700;
   font-family: 'Raleway';
   font-size: 3.2em;
-  line-height: 1.5;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr 1fr ;
-
-
-}
-
-.WavingHand {
-  background-color: blue;
-
-  padding-left: 8px;
-
+  text-align: center;
+  grid-template-columns: 4fr 2fr;
+  /*background-color: green;*/
 }
 
 .Statement {
-
+  /*margin-top: 40px;*/
+  /*background-color: red;*/
   padding-left: 16px;
   padding-right: 16px;
   font-family: 'Raleway';
   font-weight: 300;
   font-size: 1.8em;
   grid-column: span 6;
+  /*margin-bottom: 32px;*/
+
 }
 
 .Project {
+  /*background-color: orange;*/
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
 }
 
 .ProjectText {
-  padding-top: 24px;
+  /*padding-top: 16px;*/
+  /*background-color: yellow;*/
   display: grid;
   grid-column: span 6;
   text-align: center;
@@ -237,6 +239,63 @@ footer {
 
 }
 
-.HomepageHeroImage {
 
+
+
+/***case study***/
+
+.Healthvitae {
+  overflow:inherit;
+width: 100%;
+grid-column: span 6;
+}
+
+.Divider {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.Conclusion {
+  background-color: red;
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Intro {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.DashboardCaseStudy {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+}
+
+.Problem {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Solution {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Process {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
 }
