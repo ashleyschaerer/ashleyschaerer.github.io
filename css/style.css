@@ -43,9 +43,6 @@ body {
   padding-right: 16px;
 }
 
-.MenuwithPDFicon {
-
-}
 
 .Logo {
   margin: 0 auto;
@@ -60,11 +57,18 @@ body {
   grid-gap: 32px;
   margin: 0 auto;
   grid-column: span 6;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   /*background-color: red;*/
   padding-top: 24px;
   text-align: center;
 
+}
+
+
+.MenuwithPDFicon {
+  grid-column: span 6;
+background-color: yellow;
+margin: 0 auto;
 
 }
 
