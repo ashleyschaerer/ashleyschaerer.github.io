@@ -455,6 +455,7 @@ grid-column: span 6;
 .CompetitorsIcon {
   display: block;
   margin: 0 auto;
+  height: inherit;
 
 }
 
