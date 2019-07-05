@@ -22,6 +22,8 @@ body {
 
 .container {
   background-color: #FFE2E2;
+  background-color: #FFFFFF;
+
   margin: 0 auto;
   width: 375px;
   display: grid;
@@ -41,6 +43,10 @@ body {
   padding-right: 16px;
 }
 
+.MenuwithPDFicon {
+
+}
+
 .Logo {
   margin: 0 auto;
   padding-top: 48px;
@@ -55,8 +61,8 @@ body {
   margin: 0 auto;
   grid-column: span 6;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: red;
-  /*padding-top: 8px;*/
+  /*background-color: red;*/
+  padding-top: 24px;
   text-align: center;
 
 
@@ -76,13 +82,14 @@ body {
 .navmenu {
   text-decoration: none;
   color: #262626;
+  font-weight: 300;
 
 }
 
 .navmenubold {
   text-decoration: none;
   color: #262626;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .Portrait {
@@ -96,35 +103,59 @@ body {
 .Story {
   padding: 16px;
   grid-column: span 6;
-  background-color: yellow;
 }
 
 .Link {
   color: #FF6F61;
   font-size: 1.6em;
+  font-weight: 300;
   text-decoration: none;
   padding-top: 16px;
 }
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 3.2em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 80px;
+}
+
 
 
 h2 {
   font-family: 'Raleway';
   font-size: 2.4em;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
+  line-height: 3.2;
+  padding-top: 40px;
 }
 
 h4{
   font-size: 1.6em;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 4;
 }
 
 p {
   font-size: 1.6em;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 300;
+  line-height: 1.6;
 
+}
+
+.Tagline {
+  font-size: 1.8em;
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-align: center;
+  /*padding-bottom: 40px;*/
+  padding-top: 16px;
+}
+
+.ExtraBold {
+  font-weight: 700;
 }
 
 footer {
@@ -139,28 +170,49 @@ footer {
 
 }
 
+.FooterText {
+  grid-column: span 6;
+}
+
+.ResumeandPdfIcon {
+  grid-column: span 6;
+}
+
+.email {
+  grid-column: span 6;
+  color: #FF6F61;
+  font-size: 1.6em;
+  font-weight: 300;
+  text-decoration: none;
+  padding-top: 16px;
+}
+
 .icons {
   padding-top: 32px;
+  /*background-color: blue;*/
   display: grid;
   grid-gap: 16px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column: span 6;
+ grid-template-columns:1fr 5fr;
+
 }
 
 .CopyrightAndButton {
   display: grid;
-
+  grid-column: span 6;
   grid-gap: 16px;
   grid-template-columns: 5fr 1fr;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 .Copyright {
-  font-size: 1.1em;
-  font-weight: 700;
+  font-family: 'Raleway';
+  font-size: 0.9em;
+  font-weight: 600;
   letter-spacing: 0.1em;
   color: #767876;
-  background-color: orange;
-  padding-top: 10px;
+  /*background-color: orange;*/
+  padding-top: 12px;
 }
 
 
@@ -173,47 +225,58 @@ footer {
 
 
 .Hero {
-  background-color: orange;
+  /*background-color: orange;*/
   /*padding-top: 40px;*/
   display: grid;
   margin: 0 auto;
   grid-column: span 6;
   grid-template-columns: 1fr 1fr;
 
+
+}
+
+.Ashley {
+  font-size: 3.2em;
+  font-weight: 600;
+  font-family: 'Raleway';
+  padding-left: 40px;
+}
+
+.HandIcon {
+  padding-right: 30px;
 }
 
 .IntroductionStatement {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Raleway';
-  font-size: 3.2em;
+  /*font-size: 3.2em;*/
   /*background-color: yellow;*/
 }
 
 .IntroductionStatementTWO {
-  /*padding-top: 7px;*/
+  padding-top: 8px;
   display: grid;
   margin: 0 auto;
   grid-column: span 6;
-  font-weight: 700;
-  font-family: 'Raleway';
-  font-size: 3.2em;
   align-items: center;
   justify-content: center;
   text-align: center;
   grid-template-columns: 4fr 2fr;
   /*background-color: green;*/
+
 }
 
 .Statement {
   /*margin-top: 40px;*/
   /*background-color: red;*/
+  margin-top: 48px;
   padding-left: 16px;
   padding-right: 16px;
   font-family: 'Raleway';
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
@@ -227,17 +290,24 @@ footer {
   margin: 0 auto;
 }
 
+.HomepageHeroImage {
+  box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
+  margin-top: 48px;
+}
+
 .ProjectText {
-  /*padding-top: 16px;*/
+  margin-top: 16px;
+  margin-bottom: 80px;
   /*background-color: yellow;*/
   display: grid;
   grid-column: span 6;
   text-align: center;
-  margin: 0 auto;
   /*align-items: center;
   justify-content: center;*/
 
 }
+
+
 
 
 
@@ -248,6 +318,57 @@ footer {
   overflow:inherit;
 width: 100%;
 grid-column: span 6;
+
+}
+
+.RoleAndTool {
+  background-color: #F2F6F2;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  color: #767876;
+  line-height: 1.3;
+  margin-top: 40px;
+
+}
+
+.Role {
+  grid-column: span 6;
+}
+
+.Tool {
+  grid-column: span 6;
+  margin-top: 24px;
+}
+
+.prototype-button {
+  background-color: #FF6F61;
+  width: 169px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 14px;
+
+
+}
+
+
+
+.WholeProcessBG {
+  background-color: #F2F6F2;
+  padding-bottom: 64px;
 }
 
 .Divider {
@@ -256,15 +377,10 @@ grid-column: span 6;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  padding-top: 64px;
+
 }
 
-.Conclusion {
-  background-color: red;
-  display: grid;
-  grid-column: span 6;
-  padding-left: 16px;
-  padding-right: 16px;
-}
 
 .Intro {
   display: grid;
@@ -273,10 +389,13 @@ grid-column: span 6;
   padding-right: 16px;
 }
 
+
 .DashboardCaseStudy {
   margin: 0 auto;
   grid-column: span 6;
   display: grid;
+  margin-top: 24px;
+  box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
 }
 
 .Problem {
@@ -293,9 +412,289 @@ grid-column: span 6;
   padding-right: 16px;
 }
 
+
+
 .Process {
   display: grid;
   grid-column: span 6;
   padding-left: 16px;
   padding-right: 16px;
+  padding-bottom: 80px;
+}
+
+.ProcessDetails {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.research-percentage {
+  font-size: 2.4em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FF6F61;
+}
+
+.CompetitiveAnalysis02 {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+
+.ThreeCompetitors {
+  background-color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
+
+.CompetitorsIcon {
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+.MacBook {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  /*background-color: pink;*/
+  overflow:inherit;
+  width: 100%;
+  padding-top: 40px;
+
+}
+
+
+
+.ProcessImages {
+  display: block;
+  margin: 0 auto;
+}
+
+.PersonaCentered {
+  grid-column: span 6;
+  text-align: center;
+}
+
+.PersonaPortrait {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  padding-top: 24px;
+
+}
+
+.Personas {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.MillenialPersona {
+  background-color: #FFFFFF;
+  /*margin-left: 16px;
+  margin-right: 16px;*/
+  margin-top: 56px;
+  padding-bottom: 24px;
+  border-radius: 8px;
+
+}
+
+.GenXPersona {
+  background-color: #FFFFFF;
+  /*margin-left: 16px;
+  margin-right: 16px;*/
+  margin-top: 40px;
+  padding-bottom: 24px;
+  border-radius: 8px;
+
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6em;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  line-height: 1.6;
+}
+
+.MillenialGenX {
+  font-family: 'Raleway';
+  font-size: 2.4em;
+  font-weight: 600;
+  color: #FF6F61;
+}
+
+.Frustrations {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.4;
+
+}
+
+.Goals {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.4;
+}
+
+
+.Preference {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.UserStories {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.6em;
+  color: #FF6F61;
+  padding-top: 32px;
+  line-height: 1.6;
+}
+
+.NewUser {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+
+  line-height: 1.4;
+
+}
+
+.ReturningUser {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+
+  line-height: 1.4;
+}
+
+
+.SitemapUserFlows {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ProcessImages {
+  margin-top: 40px;
+
+}
+
+.LowFidelityWireframes {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.UserTesting {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ConceptAndBranding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ExecutionText {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.UsabilityTestingText {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.UserTestingHighlights {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding-top: 32px;
+  line-height: 1.4;
+}
+
+.HealthvitaeLOGO {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.PreferenceTestingText {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.PreferenceTopText {
+  /*background-color: red;*/
+  margin-top: 40px;
+  padding-left: 16px;
+  /*font-weight: 700;
+  color: #FF6F61;*/
+
+}
+
+.ChosenOne{
+  font-weight: 700;
+  color: #FF6F61;
+  padding-left: 16px;
+  margin-top: 15px;
+}
+.Preference {
+  /*background-color: yellow;*/
+  margin-top: 15px;
+}
+
+.PreferenceImages {
+  display: block;
+  margin: 0 auto;
+}
+
+.Legibility {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.Cohesiveness {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.4;
+
+}
+
+.Conclusion {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 40px;
+}
+
+.ConclusionandButton {
+  display: grid;
+  margin-bottom: 80px;
 }
