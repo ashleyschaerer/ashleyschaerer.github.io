@@ -306,6 +306,12 @@ footer {
   margin: 0 auto;
 }
 
+.LinkProject {
+  text-decoration: none;
+  color: #262626;
+}
+
+
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
   margin-top: 48px;
