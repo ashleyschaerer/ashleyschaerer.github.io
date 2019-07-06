@@ -25,12 +25,13 @@ body {
   background-color: #FFFFFF;
 
   margin: 0 auto;
-  width: 375px;
+  /*width: 375px;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /*grid-gap: 16px;*/
   align-items: center;
   justify-content: center;
+  width: 100%;
 
 }
 
@@ -170,6 +171,7 @@ footer {
   padding-right: 16px;
   padding-top: 48px;
   padding-bottom: 24px;
+  margin-top: 80px;
 
 }
 
@@ -319,7 +321,7 @@ footer {
 
 .ProjectText {
   margin-top: 16px;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;*/
   /*background-color: yellow;*/
   display: grid;
   grid-column: span 6;
@@ -392,6 +394,25 @@ grid-column: span 6;
   padding-top: 14px;
 
 
+}
+
+.prototype-buttonLoFiWIREFRAMES {
+  background-color: #FF6F61;
+  width: 225px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 14px;
 }
 
 
@@ -737,5 +758,5 @@ h5 {
 
 .ConclusionandButton {
   display: grid;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;/*
 }
