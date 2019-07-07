@@ -36,6 +36,32 @@ body {
 
 }
 
+.containerBio {
+  background-color: #FFE2E2;
+  background-color: #FFFFFF;
+
+  margin: 0 auto;
+  /*width: 375px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*grid-gap: 16px;*/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 300px) {
+  .containerBio {
+    grid-template-areas:
+    "TopNav"
+    "Portrait"
+    "Story"
+    "footer"
+  }
+}
+
+
+
 .TopNav {
   font-size: 1.6em;
   display: grid;
@@ -86,15 +112,21 @@ background-color: yellow;
 
 .navmenu {
   text-decoration: none;
-  color: #262626;
-  font-weight: 300;
+  color: #D2D6D2;
+  font-weight: 600;
 
 }
 
 .navmenubold {
   text-decoration: none;
-  color: #262626;
-  font-weight: 700;
+  color: #FF6F61;
+  font-weight: 600;
+}
+
+
+a:hover {
+  color: #FF6F61;
+
 }
 
 .Portrait {
@@ -109,6 +141,7 @@ background-color: yellow;
   padding: 16px;
   grid-column: span 6;
 }
+
 
 .Link {
   color: #FF6F61;
@@ -295,6 +328,7 @@ footer {
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
+
 
 }
 
@@ -529,6 +563,7 @@ grid-column: span 6;
   padding-top: 40px;
 
 }
+
 
 
 
