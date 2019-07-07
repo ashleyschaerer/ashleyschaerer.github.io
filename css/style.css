@@ -56,7 +56,7 @@ body {
     "TopNav"
     "Portrait"
     "Story"
-    "footer"
+    "footer";
   }
 }
 
@@ -140,6 +140,12 @@ a:hover {
 .Story {
   padding: 16px;
   grid-column: span 6;
+}
+
+@media (min-width: 375px) {
+  .Story {
+    width: 50%;
+  }
 }
 
 
