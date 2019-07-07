@@ -23,7 +23,6 @@ body {
 .container {
   background-color: #FFE2E2;
   background-color: #FFFFFF;
-
   margin: 0 auto;
   /*width: 375px;*/
   display: grid;
@@ -32,30 +31,19 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-
-
+  /*max-width: 1440px;*/
 }
 
-.containerBio {
-  background-color: #FFE2E2;
-  background-color: #FFFFFF;
 
-  margin: 0 auto;
-  /*width: 375px;*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  /*grid-gap: 16px;*/
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
 
-@media (max-width: 800px) {
+
+
+/*@media (max-width: 1024px) {
   .container {
     width: 50%;
     margin: 0 auto;
   }
-}
+}*/
 
 
 
@@ -137,6 +125,9 @@ a:hover {
 .Story {
   padding: 16px;
   grid-column: span 6;
+  max-width: 696px;
+  margin: 0 auto;
+
 }
 
 /*@media (min-width: 375px) {
@@ -200,6 +191,8 @@ p {
   font-weight: 700;
 }
 
+
+
 footer {
   background-color: #F2F6F2;
   display: grid;
@@ -210,12 +203,17 @@ footer {
   padding-top: 48px;
   padding-bottom: 24px;
   margin-top: 80px;
-
+  max-width: 980px;
+  margin: 0 auto;
 }
+
+
+
 
 .FooterText {
   grid-column: span 6;
   color: #767876;
+  /*max-width: 482px;*/
 }
 
 .ResumeandPdfIcon {
@@ -388,6 +386,19 @@ grid-column: span 6;
 
 }
 
+.MacHero {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  /*background-color: pink;*/
+  overflow:inherit;
+  width: 100%;
+  padding-top: 40px;
+  max-width: 1582px;
+  margin: 0 auto;
+
+}
+
 .RoleAndTool {
   background-color: #F2F6F2;
   align-items: center;
@@ -477,6 +488,8 @@ grid-column: span 6;
   grid-column: span 6;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 
@@ -493,6 +506,8 @@ grid-column: span 6;
   grid-column: span 6;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .Solution {
@@ -500,6 +515,8 @@ grid-column: span 6;
   grid-column: span 6;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 
@@ -510,6 +527,8 @@ grid-column: span 6;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 80px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .NumberCoral {
@@ -519,6 +538,12 @@ grid-column: span 6;
 .ProcessDetails {
   padding-left: 16px;
   padding-right: 16px;
+  
+}
+
+.test {
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 
@@ -565,6 +590,8 @@ grid-column: span 6;
   overflow:inherit;
   width: 100%;
   padding-top: 40px;
+  max-width: 622px;
+  margin: 0 auto;
 
 }
 
@@ -794,6 +821,8 @@ h5 {
   padding-left: 16px;
   padding-right: 16px;
   margin-bottom: 40px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .ConclusionandButton {
