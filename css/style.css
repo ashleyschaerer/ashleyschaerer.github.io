@@ -33,6 +33,7 @@ body {
   justify-content: center;
   width: 100%;
 
+
 }
 
 .TopNav {
@@ -760,3 +761,26 @@ h5 {
   display: grid;
   /*margin-bottom: 80px;/*
 }
+
+
+
+
+/* Media Query */
+
+
+
+/* code for two-column design */
+/*@media screen and (min-width: 575px){
+    div {
+     margin: 1%;
+     width: 48%;
+   }
+ }
+
+ /* code for four-column design */
+ /*@media screen and (min-width: 900px){
+    div {
+     margin: .5%;
+     width: 24%;
+   }
+ }
