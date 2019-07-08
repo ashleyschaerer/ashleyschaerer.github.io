@@ -330,6 +330,8 @@ footer {
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
+  max-width: 838px;
+  margin: 0 auto;
 
 
 }
@@ -384,6 +386,13 @@ footer {
 width: 100%;
 grid-column: span 6;
 
+}
+
+.Title {
+  max-width: 696px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .MacHero {
@@ -467,10 +476,6 @@ grid-column: span 6;
 
 
 
-.WholeProcessBG {
-  background-color: #F2F6F2;
-  padding-bottom: 64px;
-}
 
 .Divider {
   display: grid;
@@ -535,15 +540,21 @@ grid-column: span 6;
   color: #FF6F61;
 }
 
+.WholeProcessBG {
+  background-color: #F2F6F2;
+  padding-bottom: 64px;
+}
+
 .ProcessDetails {
   padding-left: 16px;
   padding-right: 16px;
-  
+
 }
 
 .test {
   max-width: 696px;
   margin: 0 auto;
+
 }
 
 
@@ -555,10 +566,23 @@ grid-column: span 6;
   color: #FF6F61;
 }
 
+@media screen and (min-width: 980px) {
+  .containerresearch {
+    max-width: 197px;
+    grid-template-areas:
+    "numberone numbertwo"
+    "numberthree numberfour"
+    "numberfive numbersix"
+  }
+}
+
+
 .CompetitiveAnalysis02 {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 24px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .CompetitiveTextBold {
@@ -603,6 +627,11 @@ grid-column: span 6;
   margin: 0 auto;
 }
 
+.Personawidth {
+  max-width: 696px;
+  margin: 0 auto;
+}
+
 .PersonaCentered {
   grid-column: span 6;
   text-align: center;
@@ -628,6 +657,7 @@ grid-column: span 6;
   margin-top: 56px;
   padding-bottom: 24px;
   border-radius: 8px;
+  max-width: 443px;
 
 }
 
@@ -638,8 +668,15 @@ grid-column: span 6;
   margin-top: 40px;
   padding-bottom: 24px;
   border-radius: 8px;
+  max-width: 443px;
 
 }
+
+/*@media (max-width:1012px) {
+  .Personas {
+
+  }
+}*/
 
 h3 {
   font-weight: 700;
@@ -689,6 +726,11 @@ h3 {
   padding-right: 16px;
 }
 
+.UserStoriesWidth {
+  max-width: 696px;
+  margin: 0 auto;
+}
+
 h5 {
   font-weight: 700;
   font-size: 1.6em;
@@ -720,6 +762,8 @@ h5 {
 .SitemapUserFlows {
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 412px;
+  margin: 0 auto;
 }
 
 .ProcessImages {
@@ -732,9 +776,19 @@ h5 {
   padding-right: 16px;
 }
 
+.LowFidelityWireframesWidth {
+  max-width: 696px;
+  margin: 0 auto;
+}
+
 .UserTesting {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.UserTestingWidth {
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .ConceptAndBranding {
@@ -745,6 +799,8 @@ h5 {
 .ExecutionText {
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .UsabilityTestingText {
@@ -795,6 +851,11 @@ h5 {
 
 .PreferenceImages {
   display: block;
+  margin: 0 auto;
+}
+
+.PreferenceWidth {
+  max-width: 696px;
   margin: 0 auto;
 }
 
