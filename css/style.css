@@ -570,9 +570,8 @@ grid-column: span 6;
   .containerresearch {
     max-width: 197px;
     grid-template-areas:
-    "numberone numbertwo"
-    "numberthree numberfour"
-    "numberfive numbersix"
+    "numberone numbertwo numberthree"
+    "numberfour numberfive numbersix"
   }
 }
 
