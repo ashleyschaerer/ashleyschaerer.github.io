@@ -116,7 +116,7 @@ a:hover {
 
 .Portrait {
   margin: 0 auto;
-  padding-top: 72px;
+  padding-top: 88px;
   grid-column: span 6;
   display: grid;
 
@@ -151,7 +151,7 @@ h1 {
   font-size: 3.2em;
   font-weight: 600;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 88px;
 }
 
 
@@ -202,9 +202,9 @@ footer {
   padding-right: 16px;
   padding-top: 48px;
   padding-bottom: 24px;
-  margin-top: 80px;
+  margin-top: 88px;
   max-width: 980px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 
@@ -322,8 +322,9 @@ footer {
 .Statement {
   /*margin-top: 40px;*/
   /*background-color: red;*/
-  margin-top: 48px;
+  padding-top: 72px;
   padding-left: 16px;
+  padding-bottom: 56px;
   padding-right: 16px;
   font-family: 'Raleway';
   font-weight: 200;
@@ -355,7 +356,7 @@ footer {
 
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
-  margin-top: 48px;
+  /*margin-top: 48px;*/
 }
 
 .ProjectText {
@@ -432,6 +433,15 @@ grid-column: span 6;
 .Tool {
   grid-column: span 6;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 980px) {
+  .RoleAndTool {
+    grid-template-areas:
+    ".Role .Tool .prototype-button"
+
+
+  }
 }
 
 .prototype-button {
@@ -574,6 +584,8 @@ grid-column: span 6;
     "numberfour numberfive numbersix"
   }
 }
+
+
 
 
 .CompetitiveAnalysis02 {
