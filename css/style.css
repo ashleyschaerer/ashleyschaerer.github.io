@@ -767,6 +767,9 @@ h5 {
   color: #FF6F61;
   padding-top: 32px;
   line-height: 1.6;
+  padding: 10px 16px 10px 0;
+  background-color: pink;
+
 }
 
 .NewUser {
@@ -986,10 +989,35 @@ h5 {
 
 .RoleAndTool {
   display: grid;
-  grid-template-columns: 300px 300px 300px ;
-  background-color: green;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  padding-left: 230px;
+  padding-right: 230px;
+  grid-gap: 16px;
+  height: 192px;
 }
 
+
+.Role {
+  display: grid;
+  grid-column: span 2;
+  /*background-color: yellow;*/
+  margin: 0 auto;
+}
+
+.Tool {
+  display: grid;
+  grid-column: span 2;
+  /*background-color: pink;*/
+  margin: 0 auto;
+}
+
+.prototype-button {
+  display: grid;
+  grid-column: span 2;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
 
 
 .containerresearch {
@@ -1029,16 +1057,38 @@ h5 {
  display: inline;
  margin: 88px auto 0 auto;
  text-align: center;
+ grid-column: span 2;
 
 }
 
- .UserStories {
+ /*.UserStories {
   max-width: 696px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 340px 340px;
   grid-gap: 20px;
   background-color: #fff;
+ }*/
+
+ .UserStories {
+  max-width: 696px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
+  background-color: #fff;
+ }
+
+ .UserStoriesWidth {
+   display: grid;
+   grid-column: span 6;
+   margin: 0 auto;
+   background-color: pink;
+ }
+
+ .UserStoriesList {
+   display: grid;
+   grid-column: span 2;
  }
 
  /*.Personas {
@@ -1051,7 +1101,8 @@ h5 {
 
  .Persona {
    display: grid;
-grid-column: span 6;
+/*grid-column: span 6;*/
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 background-color: pink;
    margin: 0 auto;
    /*padding-left:214px;
@@ -1064,9 +1115,26 @@ background-color: pink;
 
 .TwoPeoplePersona {
   display: grid;
-  grid-template-columns: 3fr 3fr;
-  grid-gap: 126px;
+grid-column: span 6;
+grid-template-columns: 3fr 3fr;
+ /*grid-gap: 126px;*/
   background-color: yellow;
+  /*height: 648px;*/
+  margin: 0 auto;
+  /*padding-left: 214px;
+  padding-right: 214px;*/
+  grid-gap: 126px;
+
+
+}
+
+.MillenialPersona {
+  margin: 0 auto;
+
+}
+
+.GenXPersona {
+  margin: 0 auto;
 
 }
 
@@ -1113,21 +1181,29 @@ background-color: pink;
   margin: 0 auto;
 }
 
-.UsabilityTesting {
+/*.UsabilityTesting {
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-gap: 32px;
   padding-left: 230px;
   padding-right: 230px;
   margin: 0 auto;
-  background-color: pink;
+  background-color: green;
 }
 
 .UsabilityTestingText {
   background-color: yellow;
-
+  display: grid;
 
 }
+.UsabilityTestingHighlights {
+  background-color: orange;
+
+}
+
+.UsabilityText {
+  background-color: red;
+}*/
 
 .ImageBottom {
   display: grid;
