@@ -127,6 +127,7 @@ background-color: yellow;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  background-color: lightblue;
 
 }
 
@@ -162,13 +163,13 @@ h2 {
   text-align: center;
   line-height: 3.2;
   padding-top: 40px;
-  /*background-color: red;*/
+  background-color: red;
 }
 
 h4{
   font-size: 1.6em;
   font-weight: 700;
-  line-height: 4;
+  /*line-height: 4;*/
 }
 
 p {
@@ -183,8 +184,9 @@ p {
   font-family: 'Raleway';
   font-weight: 200;
   text-align: center;
-  /*padding-bottom: 40px;*/
+  padding-bottom: 40px;
   padding-top: 16px;
+  /*background-color: green;*/
 }
 
 .ExtraBold {
@@ -312,6 +314,7 @@ footer {
   margin: 0 auto;
   font-weight: 600;
   font-family: 'Raleway';
+
 }
 
 .IntroductionStatementTWO {
@@ -411,10 +414,9 @@ grid-column: span 6;
   margin: 0 auto;
   grid-column: span 6;
   display: grid;
-  /*background-color: pink;*/
+/*background-color: pink;*/
   overflow:inherit;
   width: 100%;
-  padding-top: 40px;
   max-width: 1582px;
   margin: 0 auto;
 
@@ -544,6 +546,7 @@ grid-column: span 6;
   align-items: center;
   justify-content: center;
   padding-top: 64px;
+  background-color: green;
 
 }
 
@@ -979,6 +982,11 @@ h5 {
 
 
 @media screen and (min-width: 375px){
+
+.Story  {
+  padding-top: 50px;
+}
+
   /*.container {
     padding-left: 16px;
     padding-right: 16px;
@@ -1018,6 +1026,37 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+  .Tagline {
+
+    margin-bottom: 44px;
+    margin-top: 16px;
+  }
+
+  .Portrait {
+    padding-top: 104px;
+
+  }
+
+  .Story {
+    padding-top: 74px;
+  }
+
+
+h1 {
+  padding-top: 104px;
+
+}
+
+/*h2 {
+
+  padding-top: 200px;
+}*/
+
+.Statement {
+  padding-bottom: 96px;
+  font-size: 2.4em;
+}
+
 
 .IntroductionStatement {
   font-size: 4em;
@@ -1040,6 +1079,8 @@ h5 {
   font-size: 2.4em;
 }
 
+
+
 .DashboardCaseStudy {
   max-width: 980px;
 }
@@ -1051,6 +1092,8 @@ h5 {
   padding-right: 230px;
   grid-gap: 16px;
   height: 192px;
+  margin-top: 64px;
+
 }
 
 
@@ -1075,6 +1118,34 @@ h5 {
   padding-bottom: 10px;
 
 }
+
+h2 {
+  margin-top: 180px;
+}
+
+.Divider {
+  margin-top: 125px;
+}
+
+
+
+/*.Intro {
+
+  margin-top:125px;
+}
+
+.Problem {
+  margin-top:125px;
+}
+
+.Solution {
+  margin-top:115px;
+
+}
+
+.Process {
+  margin-top: 115px;
+}*/
 
 
 .containerresearch {
@@ -1295,8 +1366,7 @@ grid-template-columns: 3fr 3fr;
   max-width: 980px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-gap: 32px;
+  grid-template-columns: 490px 490px ;
   background-color: #fff;
 }
 
@@ -1304,9 +1374,9 @@ grid-template-columns: 3fr 3fr;
   /*max-width: 412px;*/
   /*grid-template-columns: 2fr*/
   display: grid;
-  grid-column: span 2;
   background-color: orange;
   height: 300px;
+  width: 412px;
 }
 
 .HealthvitaeLOGO {
@@ -1351,16 +1421,22 @@ grid-template-columns: 3fr 3fr;
 }
 
 .sketchesDuo {
-  /*max-width: 537px;*/
-  display: grid;
-  grid-column: span 4;
+  width: 490px;
+
   /*grid-template-columns: 4fr;*/
   background-color: lightgreen;
+  padding-top: 200px;
 }
 
 .LogoGrid {
   display: grid;
   grid-column: span 6;
+
+}
+
+.HealthvitaeLOGO {
+  margin: 0 auto;
+
 }
 
 .PreferenceGrid {
@@ -1481,7 +1557,10 @@ grid-template-columns: 3fr 3fr;
 }
 
 
+footer {
+  margin-top: 104px;
 
+}
 
 .gridfooter {
   display: grid;
@@ -1489,7 +1568,8 @@ grid-template-columns: 3fr 3fr;
   /*padding-left: 230px;
   padding-right: 230px;*/
   width: 980px;
-  margin: 0 auto
+  margin: 0 auto;
+
 }
 
 .GridFooterText {
