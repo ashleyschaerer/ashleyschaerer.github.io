@@ -465,6 +465,29 @@ grid-column: span 6;
 
 
 }
+.Prototypebuttonend {
+  margin: 0 auto;
+  display: grid;
+  grid-column: span 6;
+
+}
+
+.viewprototypeb {
+  background-color: #FF6F61;
+  width: 169px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 17px;
+  margin-top: 40px;
+
+
+}
 
 
 
@@ -661,7 +684,10 @@ grid-column: span 6;
   width: 100%;
 }
 
-
+.SitemapUserFlowImage {
+  background-color: green;
+  width: 100%;
+}
 
 
 .Personawidth {
@@ -803,6 +829,8 @@ h5 {
 }
 
 
+
+
 /*.LowFidelityWireframes {
   padding-left: 16px;
   padding-right: 16px;
@@ -862,6 +890,7 @@ h5 {
   display: block;
   margin: 0 auto;
   padding-top: 40px;
+  width: 297px;
 }
 /*.PreferenceTestingText {
   padding-left: 16px;
@@ -1215,6 +1244,7 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column:span 6;
   margin: 0 auto;
+  background-color: red;
 }
 
 .Gridmacbook {
@@ -1257,6 +1287,10 @@ grid-template-columns: 3fr 3fr;
   grid-column: span 2;
   background-color: orange;
   height: 300px;
+}
+
+.HealthvitaeLOGO {
+  width: 537px;
 }
 
 .StyleGuideButton {
