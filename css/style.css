@@ -632,6 +632,7 @@ grid-column: span 6;
   font-family: 'Raleway';
   font-weight: 600;
   color: #FF6F61;
+  background-color: yellow;
 }
 
 
@@ -692,8 +693,9 @@ grid-column: span 6;
 }
 
 .SitemapUserFlowImage {
-  background-color: green;
+  /*background-color: green;*/
   width: 100%;
+  margin-top: 40px;
 }
 
 
@@ -1155,6 +1157,7 @@ h2 {
   padding-right: 230px;
   grid-column-gap: 75px;
   grid-row-gap: 40px;
+  margin-top: 80px;
   /*padding-top: 123px;*/
 }
 
@@ -1176,6 +1179,7 @@ h2 {
   grid-gap: 88px;
   padding-left: 123px;
   padding-right: 123px;
+  margin-top: 80px;
   /*margin-top: 123px;
   margin-bottom: 128px;*/
 
@@ -1256,6 +1260,7 @@ grid-template-columns: 3fr 3fr;
   /*padding-left: 214px;
   padding-right: 214px;*/
   grid-gap: 126px;
+  margin-top: 80px;
 
 
 }
@@ -1335,7 +1340,8 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column:span 6;
   margin: 0 auto;
-  background-color: red;
+  margin-top: 150px;
+  width: 537px;
 }
 
 .Gridmacbook {
@@ -1345,6 +1351,7 @@ grid-template-columns: 3fr 3fr;
   padding-left: 112px;
   padding-right: 112px;
   grid-row-gap: 50px;
+  margin-top: 80px;
 }
 
 .GridmacbookWIREFRAMES {
@@ -1352,6 +1359,7 @@ grid-template-columns: 3fr 3fr;
   grid-template-columns: 3fr 3fr;
   padding-left: 112px;
   padding-right: 112px;
+  margin-top: 80px;
 
 }
 
@@ -1521,6 +1529,9 @@ grid-template-columns: 3fr 3fr;
 
 .ImageRight {
   display: grid;
+  background-color: yellow;
+  margin-top: 200px;
+
 }
 
 .ImageBottom {
@@ -1528,6 +1539,7 @@ grid-template-columns: 3fr 3fr;
   grid-column: span 6;
   /*background-color: blue;*/
   width: 980px;
+  background-color: lightblue;
 }
 
 .ConclusionandButton {
