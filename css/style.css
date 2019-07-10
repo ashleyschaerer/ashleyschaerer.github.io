@@ -103,9 +103,13 @@ background-color: yellow;
 }
 
 
-a:hover {
+.navmenu:hover {
   color: #FF6F61;
 
+}
+
+.LinkProject:hover {
+  color: #FF6F61;
 }
 
 .Portrait {
@@ -990,6 +994,22 @@ h5 {
   padding-right: 16px;
 }
 
+.GridEmail {
+  margin-top: 40px;
+}
+
+.ResumeandPdfIcon {
+  margin-top: 40px;
+}
+
+.CopyrightAndButton {
+  margin-top: 48px;
+}
+
+.icons {
+  padding-top: 16px;
+}
+
 }
 
 
@@ -1475,38 +1495,42 @@ grid-template-columns: 3fr 3fr;
 .GridFooterText {
   display: grid;
   grid-column: span 3;
-  background-color: yellow;
+  /*background-color: yellow;*/
+  padding-top: 40px;
 }
 
 .ResumeandPdfIcon {
   display: grid;
   grid-column: span 5;
-  background-color: pink;
+  /*background-color: pink;*/
   margin-right: 650px;
 
 }
 
 .GridEmail {
-  background-color: orange;
+  /*background-color: orange;*/
   display: grid;
   grid-column: span 3;
   text-align: right;
   margin-left: 250px;
   margin-bottom: 50px;
+  padding-top: 5px;
 }
 
+
 .icons {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   display: grid;
   grid-column: span 1;
   grid-template-columns: 5fr 1fr;
   padding-left: 30px;
   margin: 0 auto;
+  padding-top: 41px;
 
 }
 
 .CopyrightAndButton {
-  background-color: lightgreen;
+  /*background-color: lightgreen;*/
 }
 
 .backtotopfooter {
