@@ -630,7 +630,6 @@ grid-column: span 6;
   font-family: 'Raleway';
   font-weight: 600;
   color: #FF6F61;
-  background-color: yellow;
 }
 
 
@@ -787,7 +786,6 @@ h3 {
 
 
 .UserStories {
-  background-color: orange;
   max-width: 696px;
   margin: 0 auto;
 }
@@ -1237,7 +1235,6 @@ h2 {
    display: grid;
 /*grid-column: span 6;*/
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-background-color: pink;
    margin: 0 auto;
    /*padding-left:214px;
    padding-right: 214px;*/
@@ -1252,7 +1249,6 @@ background-color: pink;
 grid-column: span 6;
 grid-template-columns: 3fr 3fr;
  /*grid-gap: 126px;*/
-  background-color: yellow;
   /*height: 648px;*/
   margin: 0 auto;
   /*padding-left: 214px;
@@ -1291,14 +1287,12 @@ grid-template-columns: 3fr 3fr;
   grid-gap: 32px;
   /*padding-left: 230px;
   padding-right: 230px;*/
-  background-color: red;
   margin: 0 auto;
 }
 
 .SitemapText {
   display: grid;
   grid-column: span 6;
-  background-color: lightblue;
   height: 160px;
 }
 
@@ -1365,7 +1359,6 @@ grid-template-columns: 3fr 3fr;
 .ListUserTesting {
   max-width: 412px;
   margin: 0 auto;
-  background-color: green;
   margin-top: 80px;
 
 }
@@ -1376,14 +1369,12 @@ grid-template-columns: 3fr 3fr;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 490px 490px ;
-  background-color: #fff;
 }
 
 .BrandingText {
   /*max-width: 412px;*/
   /*grid-template-columns: 2fr*/
   display: grid;
-  background-color: orange;
   height: 300px;
   width: 412px;
 }
@@ -1434,14 +1425,12 @@ grid-template-columns: 3fr 3fr;
   width: 490px;
 
   /*grid-template-columns: 4fr;*/
-  background-color: lightgreen;
   padding-top: 200px;
 }
 
 .LogoGrid {
   display: grid;
   grid-column: span 6;
-  background-color: yellow;
   margin-top: 80px;
 
 }
