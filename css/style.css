@@ -119,8 +119,10 @@ a:hover {
 .Story {
   /*padding: 16px;*/
   grid-column: span 6;
-  max-width: 696px;
+  max-width: 728px;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 
 }
 
@@ -464,30 +466,28 @@ grid-column: span 6;
 
 }
 
-.prototype-buttonLoFiWIREFRAMES {
-  background-color: #FF6F61;
-  width: 225px;
-  font-size: 1.6em;
-  font-family: 'Raleway';
-  font-weight: 600;
-  color: #FFFFFF;
-  text-decoration: none;
-  height: 48px;
-  border-radius: 40px;
-  text-align: center;
-  grid-column: span 6;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  padding-top: 14px;
-}
+
 
 
 .UserStoriesButton {
  display: none;
 
 }
+
+.ButtonUserFlows {
+  display: none;
+}
+
+.StyleGuideButton {
+  display: none;
+}
+
+
+.lofiwireframebutton {
+  display: none;
+}
+
+
 
 
 
@@ -1069,6 +1069,10 @@ h5 {
 
 }
 
+.ButtonUserFlows {
+  display: inline;
+}
+
  /*.UserStories {
   max-width: 696px;
   margin: 0 auto;
@@ -1194,6 +1198,10 @@ grid-template-columns: 3fr 3fr;
 
 }
 
+.prototype-buttonLoFiWIREFRAMES {
+  display: inline;
+}
+
 /*.SitemapUserFlowImage {
   margin: 0 auto;
   display: grid;
@@ -1267,6 +1275,25 @@ grid-template-columns: 3fr 3fr;
   align-items: center;
   justify-content: center;
   padding-top: 18px;
+  display: inline;
+}
+
+.lofiwireframebutton {
+  background-color: #FF6F61;
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  text-align: center;
+  width: 225px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.6em;
+  height: 48px;
+  padding-top: 17px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+
 }
 
 .sketchesDuo {
@@ -1282,6 +1309,66 @@ grid-template-columns: 3fr 3fr;
   grid-column: span 6;
 }
 
+.PreferenceGrid {
+  /*background-color: yellow;*/
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin: 0 auto;
+  width: 980px;
+  grid-column-gap: 94px;
+}
+
+/*.PreferenceWidth {
+  grid-column: span 6;
+}*/
+
+.OneLeft {
+  grid-column: 3fr;
+  width: 443px;
+  /*background-color: lightblue;*/
+  margin: 0 auto;
+
+}
+
+.OneRight {
+  grid-column: 3fr;
+  width: 443px;
+  /*background-color: lightgreen;*/
+  margin: 0 auto;
+  padding-top: 65px;
+
+}
+
+.TwoLeft {
+  grid-column: span 6;
+  width: 980px;
+  /*margin: 0 auto;*/
+}
+
+.TwoRight {
+  grid-column: span 6;
+  width: 980px;
+  /*margin: 0 auto;*/
+}
+
+.ThreeLeft {
+  grid-column: 3fr;
+  width: 443px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+
+}
+
+.ThreeRight {
+  grid-column: 3fr;
+  width: 443px;
+  margin: 0 auto;
+  padding-top: 65px;
+
+
+}
+
+
 .BrandingButton {
   display: grid;
   grid-column: span 6;
@@ -1293,7 +1380,7 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-template-columns: 411px 537px ;
   grid-gap: 32px;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .UsabilityTestingText {
@@ -1309,7 +1396,7 @@ grid-template-columns: 3fr 3fr;
 .ImageBottom {
   display: grid;
   grid-column: span 6;
-  background-color: blue;
+  /*background-color: blue;*/
   width: 980px;
 }
 
@@ -1361,6 +1448,7 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column: span 5;
   background-color: pink;
+  margin-right: 650px;
 
 }
 
@@ -1369,7 +1457,8 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column: span 3;
   text-align: right;
-  margin:
+  margin-left: 250px;
+  margin-bottom: 50px;
 }
 
 .icons {
