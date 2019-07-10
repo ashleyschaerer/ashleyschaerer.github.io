@@ -214,17 +214,21 @@ footer {
   grid-column: span 6;
 }
 
+.pdfVector {
+  padding-left: 4px;
+}
+
 .email {
   grid-column: span 6;
   color: #FF6F61;
   font-size: 1.6em;
   font-weight: 300;
   text-decoration: none;
-  padding-top: 16px;
+  /*padding-top: 16px;*/
 }
 
 .icons {
-  padding-top: 32px;
+  margin-top: 32px;
   /*background-color: blue;*/
   display: grid;
   grid-gap: 16px;
@@ -653,6 +657,8 @@ grid-column: span 6;
 .ProcessImages {
   display: block;
   margin: 0 auto;
+  margin-top: 40px;
+  width: 100%;
 }
 
 
@@ -746,15 +752,12 @@ h3 {
 }
 
 
-/*.Preference {
-  padding-left: 16px;
-  padding-right: 16px;
-}
 
 .UserStories {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
+  background-color: orange;
+  max-width: 696px;
+  margin: 0 auto;
+}
 
 .UserStoriesWidth {
   max-width: 696px;
@@ -768,7 +771,6 @@ h5 {
   padding-top: 32px;
   line-height: 1.6;
   padding: 10px 16px 10px 0;
-  background-color: pink;
 
 }
 
@@ -795,16 +797,11 @@ h5 {
 .SitemapUserFlows {
   /*padding-left: 16px;
   padding-right: 16px;*/
-  /*max-width: 412px;*/
+  max-width: 696px;
   margin: 0 auto;
 
 }
 
-.ProcessImages {
-  margin-top: 40px;
-  width: 100%;
-
-}
 
 /*.LowFidelityWireframes {
   padding-left: 16px;
@@ -923,16 +920,24 @@ h5 {
 .Conclusion {
   display: grid;
   grid-column: span 6;
-  padding-left: 16px;
-  padding-right: 16px;
+
   margin-bottom: 40px;
   max-width: 696px;
+
   margin: 0 auto;
 }
 
 .ConclusionandButton {
   display: grid;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
   /*margin-bottom: 80px;*/
+}
+
+.BackToTopButton {
+  display: none;
 }
 
 
@@ -1028,7 +1033,7 @@ h5 {
   grid-template-columns: 2fr 2fr 2fr;
   padding-left: 230px;
   padding-right: 230px;
-  grid-column-gap: 120px;
+  grid-column-gap: 75px;
   grid-row-gap: 40px;
   /*padding-top: 123px;*/
 }
@@ -1155,11 +1160,53 @@ grid-template-columns: 3fr 3fr;
 
 .SitemapUserFlows {
   display: grid;
-  grid-template-columns: 412px 537px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   grid-gap: 32px;
-  margin-left: 230px;
-  margin-right: 230px;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
   background-color: red;
+  margin: 0 auto;
+}
+
+.SitemapText {
+  display: grid;
+  grid-column: span 6;
+  background-color: lightblue;
+  height: 160px;
+}
+
+.ButtonUserFlows {
+  background-color: #FF6F61;
+  width: 177px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+
+}
+
+/*.SitemapUserFlowImage {
+  margin: 0 auto;
+  display: grid;
+  grid-column: span 6;
+  max-width: 696px;
+
+
+}*/
+
+.SitemapImage {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
 }
 
 .Gridmacbook {
@@ -1182,57 +1229,167 @@ grid-template-columns: 3fr 3fr;
 .ListUserTesting {
   max-width: 412px;
   margin: 0 auto;
+  background-color: green;
 }
 
-/*.UsabilityTesting {
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-  grid-gap: 32px;
-  padding-left: 230px;
-  padding-right: 230px;
+
+.ConceptAndBranding {
+  max-width: 980px;
   margin: 0 auto;
-  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 32px;
+  background-color: #fff;
+}
+
+.BrandingText {
+  /*max-width: 412px;*/
+  /*grid-template-columns: 2fr*/
+  display: grid;
+  grid-column: span 2;
+  background-color: orange;
+  height: 300px;
+}
+
+.StyleGuideButton {
+  background-color: #FF6F61;
+  width: 177px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+.sketchesDuo {
+  /*max-width: 537px;*/
+  display: grid;
+  grid-column: span 4;
+  /*grid-template-columns: 4fr;*/
+  background-color: lightgreen;
+}
+
+.LogoGrid {
+  display: grid;
+  grid-column: span 6;
+}
+
+.BrandingButton {
+  display: grid;
+  grid-column: span 6;
+}
+
+.UsabilityTesting {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 411px 537px ;
+  grid-gap: 32px;
+  background-color: #fff;
 }
 
 .UsabilityTestingText {
-  background-color: yellow;
   display: grid;
-
-}
-.UsabilityTestingHighlights {
-  background-color: orange;
+  height: 420px;
 
 }
 
-.UsabilityText {
-  background-color: red;
-}*/
+.ImageRight {
+  display: grid;
+}
 
 .ImageBottom {
   display: grid;
-  grid-column: span 6px;
+  grid-column: span 6;
+  background-color: blue;
+  width: 980px;
 }
+
+.ConclusionandButton {
+  background-color: yellow;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.Prototypebuttonend {
+  background-color: lightblue;
+  margin: 0 auto;
+  display: grid;
+  grid-column: span 6;
+}
+
+.BackToTopButtonEnd {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.BackToTopButton {
+  display: grid;
+  background-color: lightgreen;
+  grid-column: span 6;
+  padding-left: 720px;
+}
+
+
+
 
 .gridfooter {
   display: grid;
-  grid-template-columns: 300px 300px 300px ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /*padding-left: 230px;
   padding-right: 230px;*/
-  background-color: pink;
-}
-
-
-
-
-/*.GridEmail {
-  display: grid;
-  background-color: green;
-
+  width: 980px;
+  margin: 0 auto
 }
 
 .GridFooterText {
+  display: grid;
+  grid-column: span 3;
+  background-color: yellow;
+}
+
+.ResumeandPdfIcon {
+  display: grid;
+  grid-column: span 5;
   background-color: pink;
-}*/
+
+}
+
+.GridEmail {
+  background-color: orange;
+  display: grid;
+  grid-column: span 3;
+  text-align: right;
+  margin:
+}
+
+.icons {
+  background-color: lightblue;
+  display: grid;
+  grid-column: span 1;
+  grid-template-columns: 5fr 1fr;
+  padding-left: 30px;
+  margin: 0 auto;
+
+}
+
+.CopyrightAndButton {
+  background-color: lightgreen;
+}
+
+.backtotopfooter {
+  display: none;
+}
+
 
 }
 
