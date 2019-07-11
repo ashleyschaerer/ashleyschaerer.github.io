@@ -65,9 +65,9 @@ body {
   margin: 0 auto;
   grid-column: span 6;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: red;*/
   padding-top: 24px;
   text-align: center;
+
 }
 
 
@@ -100,6 +100,13 @@ background-color: yellow;
 
 }
 
+.menuresume {
+
+}
+
+.menu {
+  margin-top: 4px;
+}
 
 
 .navmenubold {
@@ -112,6 +119,12 @@ background-color: yellow;
 .navmenu:hover {
   color: #FF6F61;
 
+}
+
+
+
+.PDFIconNavBar {
+  width: 12px;
 }
 
 .LinkProject:hover {
