@@ -1040,6 +1040,10 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+  .WholeProcessBG {
+   padding-bottom: 128px;
+  }
+
   .Tagline {
 
     margin-bottom: 44px;
