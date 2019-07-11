@@ -781,7 +781,7 @@ h3 {
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.6;
   padding: 10px 16px 10px 33px;
   text-indent: -1em;
 
@@ -794,7 +794,7 @@ h3 {
   font-weight: 300;
   padding-left: 16px;
   padding-right: 16px;
-  line-height: 1.4;
+  line-height: 1.6;
   padding: 10px 16px 10px 33px;
   text-indent: -1em;
 }
@@ -827,7 +827,7 @@ h5 {
   font-size: 1.6em;
   font-weight: 300;
 
-  line-height: 1.4;
+  line-height: 1.6;
 
 }
 
@@ -837,7 +837,7 @@ h5 {
   font-size: 1.6em;
   font-weight: 300;
 
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 
@@ -901,7 +901,7 @@ h5 {
   font-size: 1.6em;
   font-weight: 300;
   padding-top: 32px;
-  line-height: 1.4;
+  line-height: 1.6;
   text-indent: -1em;
 
 
@@ -955,7 +955,7 @@ h5 {
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .Cohesiveness {
@@ -963,7 +963,7 @@ h5 {
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.6;
 
 }
 
