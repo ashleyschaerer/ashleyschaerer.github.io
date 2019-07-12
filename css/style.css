@@ -43,6 +43,7 @@ body {
 
 .TopNav {
   font-size: 1.6em;
+  font-weight: 700;
   display: grid;
   grid-column: span 6;
   /*grid-gap: 16px;*/
@@ -95,7 +96,6 @@ background-color: yellow;
 .navmenu {
   text-decoration: none;
   color: #D2D6D2;
-  font-weight: 600;
 
 
 }
@@ -110,7 +110,6 @@ background-color: yellow;
 .navmenubold {
   text-decoration: none;
   color: #FF6F61;
-  font-weight: 600;
 }
 
 
