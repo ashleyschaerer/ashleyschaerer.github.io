@@ -1059,6 +1059,14 @@ h5 {
    padding-bottom: 128px;
   }
 
+
+  .Divider {
+    margin-top: 178px;
+
+  }
+
+
+
   .Tagline {
 
     margin-bottom: 44px;
@@ -1157,9 +1165,7 @@ h2 {
   margin-top: 180px;
 }
 
-.Divider {
-  margin-top: 178px;
-}
+
 
 
 
