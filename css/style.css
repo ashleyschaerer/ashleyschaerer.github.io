@@ -754,7 +754,7 @@ grid-column: span 6;
   background-color: #FFFFFF;
   /*margin-left: 16px;
   margin-right: 16px;*/
-  margin-top: 56px;
+  margin: 56px auto auto auto ;
   padding-bottom: 24px;
   border-radius: 8px;
   max-width: 443px;
@@ -765,7 +765,7 @@ grid-column: span 6;
   background-color: #FFFFFF;
   /*margin-left: 16px;
   margin-right: 16px;*/
-  margin-top: 40px;
+  margin: 40px auto auto auto;
   padding-bottom: 24px;
   border-radius: 8px;
   max-width: 443px;
@@ -1509,7 +1509,7 @@ grid-template-columns: 3fr 3fr;
   width: 443px;
   /*background-color: lightgreen;*/
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 81px;
 
 }
 
@@ -1537,7 +1537,7 @@ grid-template-columns: 3fr 3fr;
   grid-column: 3fr;
   width: 443px;
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 81px;
 
 
 }
