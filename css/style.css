@@ -1008,6 +1008,9 @@ h5 {
   line-height: 1.6;
 
 }
+.captions {
+  font-style: italic;
+}
 
 .Conclusion {
   display: grid;
