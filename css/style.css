@@ -1008,8 +1008,13 @@ h5 {
   line-height: 1.6;
 
 }
-.captions {
-  font-style: italic;
+
+.ImageRight {
+  margin-top: 32px;
+}
+
+.ImageBottom {
+  margin-top: 16px;
 }
 
 .Conclusion {
