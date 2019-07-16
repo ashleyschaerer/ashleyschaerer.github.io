@@ -391,12 +391,10 @@ footer {
 }
 
 .Project {
-  /*background-color: orange;*/
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+
 }
 
 .LinkProject {
@@ -407,7 +405,7 @@ footer {
 
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
-  width: 100%;
+  max-width: 980px;
 
 }
 
@@ -427,7 +425,23 @@ footer {
   font-weight: 700;
 }
 
+.ViewCaseStudy {
+  background-color: #FF6F61;
+  width: 169px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
 
+  margin-top: 40px;
+  padding-top: 17px;
+}
 
 
 
