@@ -39,7 +39,7 @@
         <a class="Logo" href="index.html"> <img src="images/logo.svg" alt="logo"></a>
         <ul class="NavLinks">
 
-          <li class="menu"> <a href="index.html"class="navmenubold">WORK</a> </li>
+          <li class="menu"> <a href="index.html#projects"class="navmenubold">WORK</a> </li>
           <li class="menu"> <a href="bio.html"class="navmenu">ABOUT</a> </li>
           <li class="menu"> <a href="resources/Resume03.pdf"class="navmenu">RESUME</a></li>
             <!--hdh--<li class="pdf_icon"><img src="images/navbar/pdf_icon.svg" alt=""></li><!--dfdf-->
@@ -149,15 +149,24 @@
 
             <div class="ThreeCompetitors">
               <div class="FirstCompetitor">
-                <img class="CompetitorsIcon" src="images/practice-fusion-logo.svg" alt="Practice-Fusion-icon">
+                <img class="CompetitorsIcon" src="images/practice-fusion-logo.svg" alt="Practice-Fusion-icon"
+                srcset="images/practice-fusion-logo.svg 375w,
+                        images/practice-fusion-logo_large.png 1024w"
+                sizes="(min-width: 1024px) 1024px, 100vw">
                 <br><br><p>Practice Fusion is subscription based and cheaper than its competitors. The weakness is the conservative interface and that there is no mobile version available, which gives them opportunities if they would re-design the interface and as well create a mobile app.</p><br><br><br><br>
               </div>
               <div class="SecondCompetitor">
-                <img class="CompetitorsIcon" src="images/google-drive.svg" alt="Google-Drive-icon">
+                <img class="CompetitorsIcon" src="images/google-drive.svg" alt="Google-Drive-icon"
+                srcset="images/google-drive.svg 375w,
+                        images/googledrive_large.png 1024w"
+                sizes="(min-width: 1024px) 1024px, 100vw">
               <br><br><p>Google Drive is enabling with Google Slides, Google Docs, and Google Sheets, and an easy way to collaborate. One of the threats is that if competitors find a way to differentiating its storage solution more or match Google's level of engagement with its customers, then it could be a serious threat to Google Drive.</p><br><br><br><br>
               </div>
               <div class="ThirdCompetitor">
-                <img class="CompetitorsIcon" src="images/dropbox.svg" alt="DropBox">
+                <img class="CompetitorsIcon" src="images/dropbox.svg" alt="DropBox"
+                srcset="images/dropbox.svg 375w,
+                        images/dropbox_large.png 1024w"
+                sizes="(min-width: 1024px) 1024px, 100vw">
               <br><br><p>DropBox strength is that it has a very user-friendly interface. One of the weaknesses is that they offer less free storage space compared to Google Drive and the security and privacy issues.</p>
 
               </div>
@@ -235,19 +244,24 @@
               <p>To establish necessary features, I created a list of user stories based on potential user tasks. The user stories were refined and prioritized to define a minimum viable product.</p><br><br>
             </div>
             <div class="UserStoriesList">
-              <h5>As a new user:</h5>
-              <ul class="NewUser">
-                <li>I want to create an account</li>
-                <li>I want to know how much it costs</li>
-                <li>I want to upload my medical records</li>
-              </ul>
+              <div class="LeftUserStory">
+                <h5>As a new user:</h5>
+                <ul class="NewUser">
+                  <li>I want to create an account</li>
+                  <li>I want to know how much it costs</li>
+                  <li>I want to upload my medical records</li>
+                </ul>
+              </div>
 
-              <br><br><h5>As a returning user:</h5>
-              <ul class="ReturningUser">
-                <li>I want to sign in</li>
-                <li>I want to see my medical history</li>
-                <li>I want to share my data with my doctor</li>
-              </ul>
+              <div class="RightUserStory">
+                <h5>As a returning user:</h5>
+                <ul class="ReturningUser">
+                  <li>I want to sign in</li>
+                  <li>I want to see my medical history</li>
+                  <li>I want to share my data with my doctor</li>
+                </ul>
+              </div>
+
             </div>
             <div class="UserStoriesButton">
               <a href="https://docs.google.com/spreadsheets/d/1UGmQLDwJbnQDJMjc79qRRGUTItAtAsgE9xS5uYwO09U/edit?usp=sharing" class="button-user-stories" target="_blank">VIEW USER STORIES</a>
@@ -363,7 +377,7 @@
 
           <div class="ExecutionAndTesting">
             <div class="ExecutionText">
-              <h2>Execution and Testing</h2>
+              <h2>High Fidelity Mockups</h2>
               <p>I used insights from the branding process and incorporated feedback from the user survey to create the high-fi prototype.</p>
             </div>
             <div class="Gridmacbook">
@@ -549,9 +563,7 @@
             <p class="FooterText">Hi, I'm Ashley! I'm a LA-based UI/UX designer, with a background in 3D who loves people-driven design, visual design, and binge watching Game of Thrones.</p>
           </div>
 
-          <div class="GridEmail">
-              <a class="email" href="mailto:ashley.schaerer@gmail.com">ashley.schaerer@gmail.com</a>
-          </div>
+
           <div class="ResumeandPdfIcon">
             <a href="resources/Resume03.pdf"class="Link">View my resume<img class="pdfVector" src="images/footer/pdf_icon.svg" alt=""></a>
           </div>
@@ -559,9 +571,17 @@
 
 
           <div class="icons">
-          <a  href="https://www.linkedin.com/in/ashley-schaerer/" target="_blank"> <img src="images/linkedin_icon.svg" alt="linkedin_icon"> </a>
-          <a href="https://github.com/ashleyschaerer" target="_blank"> <img src="images/github_icon.svg" alt="github_icon"> </a>
+            <div class="EmailICON">
+              <a href="mailto:ashley.schaerer@gmail.com" target="_blank"> <img src="images/footer/email.svg" alt="EmailIcon"> </a>
+            </div>
+            <div class="LinkedinICON">
+              <a href="https://www.linkedin.com/in/ashley-schaerer/" target="_blank"> <img src="images/linkedin_icon.svg" alt="linkedin_icon"> </a>
+            </div>
+            <div class="GithubICON">
+              <a href="https://github.com/ashleyschaerer" target="_blank"> <img src="images/github_icon.svg" alt="github_icon"> </a>
+            </div>
           </div>
+
           <div class="CopyrightAndButton">
             <p class="Copyright">&copy; Ashley Schaerer </p>
             <a href="#top"><img class="backtotopfooter"src="images/footer/backtotopbutton.svg" alt="back-to-top-button"></a>

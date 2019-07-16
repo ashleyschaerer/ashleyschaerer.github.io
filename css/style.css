@@ -2,6 +2,7 @@ html {
   /***base size***/
   font-size: 10px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *:before,* :after {
@@ -255,24 +256,32 @@ footer {
   padding-left: 4px;
 }
 
-.email {
-  grid-column: span 6;
-  color: #FF6F61;
-  font-size: 1.6em;
-  font-weight: 300;
-  text-decoration: none;
-  /*padding-top: 16px;*/
-}
-
 .icons {
   margin-top: 32px;
   /*background-color: blue;*/
   display: grid;
   /*grid-gap: 5px;*/
-  grid-column: span 6;
- grid-template-columns:1fr 5fr;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
+
+.EmailICON {
+  display: grid;
+  padding-top: 6px;
+  grid-column: 1fr;
+}
+
+.LinkedinICON {
+  display: grid;
+  grid-column: 1fr;
+}
+
+.GithubICON {
+  display: grid;
+  grid-column: 1fr;
+}
+
+
 
 .CopyrightAndButton {
   display: grid;
@@ -560,7 +569,7 @@ grid-column: span 6;
   height: 48px;
   border-radius: 40px;
   margin-top: 40px;
-  padding-top: 15px;
+  padding-top: 17px;
   display: inline-block;
   margin: 0 auto;
 }
@@ -693,6 +702,7 @@ grid-column: span 6;
 .CompetitorsIcon {
   display: block;
   margin: 0 auto;
+  background-color:
 
 }
 
@@ -834,6 +844,9 @@ h5 {
   line-height: 1.6;
   padding: 10px 16px 10px 0;
 
+}
+.RightUserStory {
+  margin-top: 16px;
 }
 
 .NewUser {
@@ -1061,7 +1074,8 @@ h5 {
 
 
   .Divider {
-    margin-top: 178px;
+    /*margin-top: 178px;*/
+    margin-top: 128px;
 
   }
 
@@ -1162,7 +1176,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 180px;
+  /*margin-top: 180px;*/
+  margin-top: 128px;
 }
 
 
@@ -1214,7 +1229,7 @@ h2 {
 .ThreeCompetitors {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 88px;
+  grid-gap: 80px;
   padding-left: 123px;
   padding-right: 123px;
   margin-top: 80px;
@@ -1227,7 +1242,7 @@ h2 {
  display: inline;
  margin: 180px auto 0 auto;
  text-align: center;
- grid-column: span 2;
+ grid-column: span 6;
 
 }
 
@@ -1248,8 +1263,6 @@ h2 {
   max-width: 696px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-gap: 20px;
  }
 
  .UserStoriesWidth {
@@ -1261,8 +1274,25 @@ h2 {
 
  .UserStoriesList {
    display: grid;
-   grid-column: span 2;
+   grid-template-columns: 2fr 2fr;
    margin-top: 50px;
+   /*background-color: red;*/
+   width: 696px;
+   grid-gap: 16px;
+ }
+
+ .RightUserStory {
+   display: grid;
+   margin: 0 auto;
+   /*background-color: blue;*/
+   width: 340px;
+ }
+
+ .LeftUserStory {
+   display: grid;
+   margin: 0 auto;
+   /*background-color: green;*/
+   width: 340px;
  }
 
  /*.Personas {
@@ -1375,7 +1405,7 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column:span 6;
   margin: 0 auto;
-  margin-top: 205px;
+  margin-top: 155px;
   width: 696px;
 }
 
@@ -1467,7 +1497,7 @@ grid-template-columns: 3fr 3fr;
   width: 490px;
 
   /*grid-template-columns: 4fr;*/
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .LogoGrid {
@@ -1566,7 +1596,7 @@ grid-template-columns: 3fr 3fr;
 
 .ImageRight {
   display: grid;
-  margin-top: 200px;
+  margin-top: 150px;
 
 }
 
@@ -1630,31 +1660,48 @@ footer {
   display: grid;
   grid-column: span 5;
   /*background-color: pink;*/
-  margin-right: 650px;
+  margin-right: 630px;
 
 }
 
-.GridEmail {
-  /*background-color: orange;*/
+/*.GridEmail {
+  background-color: orange;
   display: grid;
   grid-column: span 3;
   text-align: right;
   margin-left: 250px;
   margin-bottom: 50px;
   padding-top: 5px;
-}
+}*/
 
 
 .icons {
   /*background-color: lightblue;*/
   display: grid;
   grid-column: span 1;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
   padding-left: 30px;
   margin: 0 auto;
   padding-top: 41px;
+  grid-gap: 32px;
 
 }
+
+.EmailICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
+.LinkedinICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
+.GithubICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
 
 .CopyrightAndButton {
   /*background-color: lightgreen;*/
