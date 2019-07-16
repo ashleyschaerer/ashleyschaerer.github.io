@@ -508,12 +508,15 @@
 
 
             <div class="ImageRight">
-              <img class="ProcessImages" src="images/usability-testing/usability_testing01_small.png" alt=""
-                                            srcset="images/usability-testing/usability_testing01_small.png 375w,
-                                                    images/usability-testing/usability_testing01_large.png 1024w"
-                                            sizes="(min-width:1024px) 1024px, 100vw">
+              <picture>
 
-              <p class="captions">Caption bljfdkfndkl fjdklfndklfndkfjd</p>
+                <source media="(max-width:500px)" sizes="(max-width:500px)" srcset="images/usability-testing/usability_testing01_small.png 1x">
+
+                <source media="(max-width:1920px)" sizes="(max-width:1920px)"srcset="images/usability-testing/usability_testing01_large.png 1x ">
+
+              <img src="images/usability-testing/usability_testing01_small.png" alt="">
+
+           </picture>
             </div>
 
             <div class="ImageBottom">
