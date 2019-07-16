@@ -993,15 +993,18 @@ h5 {
 }
 
 .Legibility {
-  list-style: disc;
-  list-style-position: inside;
+  padding-top: 32px;
+
+  list-style:decimal;
+  list-style-position: outside;
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
+  margin-left: 24px;
 }
 
 .Cohesiveness {
-  list-style: disc;
+  list-style: decimal;
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
