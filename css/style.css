@@ -395,6 +395,8 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
 
+
+
 }
 
 .LinkProject {
@@ -406,6 +408,8 @@ footer {
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
   max-width: 980px;
+  padding-left: 16px;
+  padding-right: 16px;
 
 }
 
@@ -716,9 +720,9 @@ grid-column: span 6;
 }
 
 .ThreeCompetitors {
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 16px;*/
   padding-top: 24px;
   padding-bottom: 24px;
   margin-top: 32px;
@@ -728,10 +732,22 @@ grid-column: span 6;
 .CompetitorsIcon {
   display: block;
   margin: 0 auto;
-  background-color:
+  height: 40px;
 
 }
 
+.PracticeFusionText {
+  margin-top: 40px;
+}
+
+.GoogleDriveText {
+  margin-top: 40px;
+
+}
+
+.DropBoxText {
+  margin-top: 40px;
+}
 
 .MacBook {
   margin: 0 auto;
@@ -1270,6 +1286,7 @@ h2 {
   padding-left: 123px;
   padding-right: 123px;
   margin-top: 80px;
+  padding-top: 48px;
   /*margin-top: 123px;
   margin-bottom: 128px;*/
 
