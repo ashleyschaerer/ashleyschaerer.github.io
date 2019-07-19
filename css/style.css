@@ -421,11 +421,23 @@ footer {
 
 }
 
-.ProjectTextBold {
-  font-weight: 700;
+.LinkProjectCaseStudy {
+  text-decoration: none;
+  color: #262626;
 }
 
-.ViewCaseStudy {
+.LinkProjectCaseStudy:hover {
+  color: #FF6F61;
+}
+
+.ProjectTextBold {
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.2;
+}
+
+/*.ViewCaseStudy {
   background-color: #FF6F61;
   width: 169px;
   font-size: 1.6em;
@@ -441,7 +453,7 @@ footer {
 
   margin-top: 40px;
   padding-top: 17px;
-}
+}*/
 
 
 
