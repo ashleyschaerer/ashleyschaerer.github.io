@@ -36,7 +36,7 @@ body {
 
 .TopNav {
   font-size: 1.6em;
-  font-weight: 700;
+  font-weight: 800;
   display: grid;
   grid-column: span 6;
   /*grid-gap: 16px;*/
@@ -328,7 +328,7 @@ footer {
 
 .Ashley {
   font-size: 3.2em;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Raleway';
   padding-left: 40px;
 }
@@ -350,7 +350,7 @@ footer {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Raleway';
 
 }
@@ -376,7 +376,7 @@ footer {
   padding-bottom: 56px;
   padding-right: 18px;
   font-family: 'Raleway';
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
@@ -387,7 +387,7 @@ footer {
 }
 
 .StatementBold {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .Project {
@@ -408,7 +408,7 @@ footer {
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
   /*max-width: 980px;*/
-  width: 343px;
+  width: 100%;
 
 
 }
@@ -1132,6 +1132,8 @@ h5 {
     margin-top: 128px;
 
   }
+
+
 
 
 
