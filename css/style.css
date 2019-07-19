@@ -320,7 +320,7 @@ footer {
   display: grid;
   margin: 0 auto;
   grid-column: span 6;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 
 
@@ -331,6 +331,7 @@ footer {
   font-weight: 700;
   font-family: 'Raleway';
   padding-left: 40px;
+  background-color: blue;
 }
 
 .AshleyCoral {
@@ -364,14 +365,14 @@ footer {
   justify-content: center;
   text-align: center;
   grid-template-columns: 4fr 2fr;
-  /*background-color: green;*/
+  background-color: green;
 
 }
 
 .Statement {
   /*margin-top: 40px;*/
   /*background-color: red;*/
-  padding-top: 72px;
+  padding-top: 40px;
   padding-left: 17px;
   padding-bottom: 56px;
   padding-right: 18px;
