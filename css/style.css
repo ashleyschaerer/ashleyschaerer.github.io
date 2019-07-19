@@ -145,7 +145,7 @@ background-color: yellow;
 .Link {
   color: #FF6F61;
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   padding-top: 16px;
 }
@@ -204,7 +204,7 @@ h4{
 
 p {
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
 
 }
@@ -294,7 +294,7 @@ footer {
 .Copyright {
   font-family: 'Raleway';
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.1em;
   color: #6B6D6B;
   /*background-color: orange;*/
@@ -436,7 +436,7 @@ footer {
 }
 
 .ProjectTextBold {
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
   text-decoration: none;
   line-height: 2.2;
