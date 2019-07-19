@@ -408,8 +408,7 @@ footer {
 .HomepageHeroImage {
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
   max-width: 980px;
-  padding-left: 16px;
-  padding-right: 16px;
+  
 
 }
 
@@ -420,6 +419,7 @@ footer {
   display: grid;
   grid-column: span 6;
   text-align: center;
+
   /*align-items: center;
   justify-content: center;*/
 
