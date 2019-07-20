@@ -212,11 +212,10 @@ p {
 .Tagline {
   font-size: 1.8em;
   font-family: 'Raleway';
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   padding-bottom: 40px;
   padding-top: 16px;
-  /*background-color: green;*/
 }
 
 .ExtraBold {
@@ -377,7 +376,7 @@ footer {
   padding-bottom: 56px;
   padding-right: 18px;
   font-family: 'Raleway';
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
