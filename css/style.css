@@ -331,7 +331,7 @@ footer {
   font-weight: 700;
   font-family: 'Raleway';
   padding-left: 40px;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 .AshleyCoral {
@@ -365,7 +365,7 @@ footer {
   justify-content: center;
   text-align: center;
   grid-template-columns: 4fr 2fr;
-  background-color: green;
+  /*background-color: green;*/
 
 }
 
@@ -1147,7 +1147,7 @@ h5 {
   }
 
   .Portrait {
-    padding-top: 104px;
+    padding-top: 190px;
 
   }
 
@@ -1157,7 +1157,7 @@ h5 {
 
 
 h1 {
-  padding-top: 104px;
+  padding-top: 190px;
 
 }
 
@@ -1167,8 +1167,9 @@ h1 {
 }*/
 
 .Statement {
-  padding-bottom: 96px;
+  padding-bottom: 150px;
   font-size: 2.4em;
+  padding-top: 72px;
 }
 
 
@@ -1695,7 +1696,7 @@ grid-template-columns: 3fr 3fr;
 
 
 footer {
-  margin-top: 104px;
+  margin-top: 190px;
 
 }
 
