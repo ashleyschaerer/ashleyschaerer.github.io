@@ -394,13 +394,13 @@ footer {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .Project02 {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 
@@ -422,6 +422,7 @@ footer {
   transition: transform .3s;
   width: 80%;
   margin: 0 auto;
+  display: block;
 
 
 }
@@ -434,6 +435,7 @@ footer {
   margin: 0 auto;
   box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
   transition: transform .3s;
+  width: 80%;
 }
 
 .HomepageHeroImage02:hover {
@@ -1275,6 +1277,7 @@ h1 {
   .Project02 {
     width: 316px;
     /*background-color: green;*/
+    padding-bottom: 50px;
   }
 
   .HomepageHeroImage {
