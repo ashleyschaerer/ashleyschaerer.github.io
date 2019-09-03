@@ -441,7 +441,7 @@ footer {
 }
 
 .ProjectText {
-  margin-top: 16px;
+  margin-top: 40px;
   /*margin-bottom: 80px;*/
   /*background-color: yellow;*/
   display: grid;
@@ -1258,31 +1258,30 @@ h1 {
 
 
 .all-work {
-  display: grid;
-  background-color: yellow;
-  padding-left: 230px;
-  padding-right: 230px;
-  max-width: 1000px;
-  grid-template-columns: 516px 216px;
+  display: flex;
+  /*background-color: yellow;*/
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
-  grid-gap: 20px;
 
   }
 
   .Project {
-    width: 516px;
+    width: 616px;
+    margin-right: 200px;
   }
 
   .Project02 {
-    width: 216px;
-    background-color: green;
+    width: 316px;
+    /*background-color: green;*/
   }
 
   .HomepageHeroImage {
-    width: 516px;
+    width: 616px;
   }
   .HomepageHeroImage02 {
-    width: 216px;
+    width: 316px;
   }
 
 /*.HomepageHeroImage {
