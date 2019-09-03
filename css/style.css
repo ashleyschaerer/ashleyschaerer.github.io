@@ -404,10 +404,10 @@ footer {
 }
 
 
-/*.LinkProject {
+.LinkProject {
   text-decoration: none;
   color: #262626;
-}*/
+}
 
 .all-work {
   margin: 0 auto;
@@ -460,9 +460,9 @@ footer {
   color: #262626;
 }
 
-.LinkProjectCaseStudy:hover {
+/*.LinkProjectCaseStudy:hover {
   color: #FF6F61;
-}
+}*/
 
 .ProjectTextBold {
   font-weight: 700;
