@@ -762,6 +762,10 @@ grid-column: span 6;
   font-weight: 700;
 }
 
+.CompetitiveTextBoldCat {
+  font-weight: 700;
+}
+
 .ThreeCompetitors {
   /*background-color: #FFFFFF;
   padding-left: 16px;
@@ -830,6 +834,13 @@ grid-column: span 6;
 
 /*      ---------------------------- More Than Fluffy -----------------------------       */
 
+
+.CompetitorTitle {
+  text-align: center;
+}
+
+
+
 .ThreePeoplePersona {
   display: block;
   margin: 0 auto;
@@ -840,6 +851,45 @@ grid-column: span 6;
 .Persona01 {
 
 }
+
+
+
+.Wireframeimage {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  /*background-color: red;*/
+  overflow:inherit;
+  width: 100%;
+  padding-top: 56px;
+  max-width: 980px;
+  margin: 0 auto;
+
+}
+
+
+h6 {
+  font-weight: 700;
+  font-size: 1.6em;
+  /*color: #FF6F61;*/
+  padding-top: 32px;
+  line-height: 1.6;
+  /*padding: 10px 16px 10px 0;*/
+
+}
+
+
+
+.CatConclusion {
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 1.2em;
+  font-size: 1.6em;
+  font-weight: 300;
+
+  line-height: 1.6;
+}
+
 
 
 
@@ -1208,7 +1258,7 @@ h5 {
     display: grid;
   /*background-color: pink;*/
     overflow:inherit;
-    width: 70%;
+    width: 69%;
     max-width: 1582px;
     margin: 0 auto;
 
@@ -1226,7 +1276,7 @@ h5 {
 }
 
   .AlreadyPetOwner {
-    background-color: red;
+    /*background-color: red;*/
   }
 
   .Persona01 {
@@ -1243,9 +1293,10 @@ h5 {
 
   .FirstTimeCatOwner {
     display: grid;
-    grid-column: span 6;
-    background-color: orange;
+    grid-column: span 2;
+    /*background-color: orange;*/
     width: 550px;
+    margin: 0 auto;
 
   }
 
@@ -1254,8 +1305,79 @@ h5 {
   }
 
 
+  .SitemapTextCat {
+    display: grid;
+    grid-column: span 6;
+    height: 240px;
+  }
+
+  .UserTestingCat {
+   max-width: 1124px;
+   margin: 0 auto;
+   display: grid;
+  }
+
+  .UserTestingCatWidth {
+    display: grid;
+    max-width: 696px;
+    grid-column: span 6;
+    margin: 0 auto;
+    /*background-color: pink;*/
+  }
+
+  .UserTestingCatList {
+    display: grid;
+    grid-template-columns: 641px 483px;
+    margin-top: 50px;
+    /*background-color: red;*/
+    width: 1124px;
+    grid-gap: 16px;
+  }
+
+  .CatConclusion {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 1.2em;
+    font-size: 1.6em;
+    font-weight: 300;
+
+    line-height: 1.6;
+  }
+
+  .LeftCat {
+    display: grid;
+    margin: 0 auto;
+    /*background-color: green;*/
+    width: 641px;
+  }
+
+  .RightCat {
+    display: grid;
+    margin: 0 auto;
+    /*background-color: yellow;*/
+    width: 483px;
+    padding-top: 18px;
+    height: 200px;
+  }
+
+  .RightCatConclusion {
+    display: grid;
+    margin: 0 auto;
+    /*background-color: blue;*/
+    width: 483px;
+  }
+
+.ConclusionText {
+  /*background-color: pink;*/
+  margin-top: 20px;
+}
 
 
+.SKETCHESWIREFRAMES {
+  /*background-color: green;*/
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 
 
   /*      ---------------------------- More Than Fluffy -----------------------------       */
@@ -1446,26 +1568,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*.Intro {
 
   margin-top:125px;
@@ -1526,6 +1628,7 @@ h2 {
  margin: 180px auto 0 auto;
  text-align: center;
  grid-column: span 6;
+
 
 }
 
@@ -1635,6 +1738,11 @@ grid-template-columns: 3fr 3fr;
 
 }*/
 
+.SitemapText{
+  display: grid;
+  grid-column: span 6;
+  height: 100px;
+}
 
 .SitemapUserFlows {
   display: grid;
@@ -1645,18 +1753,13 @@ grid-template-columns: 3fr 3fr;
   margin: 0 auto;
 }
 
-.SitemapText {
-  display: grid;
-  grid-column: span 6;
-  height: 160px;
-}
 
 .ButtonUserFlows {
   background-color: #FF6F61;
   width: 177px;
   font-size: 1.6em;
   font-family: 'Raleway';
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
   text-decoration: none;
   height: 48px;
@@ -1743,7 +1846,7 @@ grid-template-columns: 3fr 3fr;
   width: 177px;
   font-size: 1.6em;
   font-family: 'Raleway';
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
   text-decoration: none;
   height: 48px;
@@ -1765,7 +1868,7 @@ grid-template-columns: 3fr 3fr;
   text-align: center;
   width: 225px;
   font-family: 'Raleway';
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.6em;
   height: 48px;
   padding-top: 17px;
