@@ -521,6 +521,18 @@ grid-column: span 6;
 
 }
 
+.MacHeroFluffy {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+/*background-color: pink;*/
+  overflow:inherit;
+  width: 80%;
+  max-width: 1582px;
+  margin: 0 auto;
+
+}
+
 .RoleAndTool {
   background-color: #F2F6F2;
   align-items: center;
@@ -816,7 +828,7 @@ grid-column: span 6;
 
 
 
-/*More Than Fluffy User Personas*/
+/*      ---------------------------- More Than Fluffy -----------------------------       */
 
 .ThreePeoplePersona {
   display: block;
@@ -836,6 +848,7 @@ grid-column: span 6;
 
 
 
+/*      ---------------------------- More Than Fluffy -----------------------------       */
 
 
 
@@ -1138,6 +1151,8 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+
+
 .Story  {
   padding-top: 50px;
 }
@@ -1180,6 +1195,72 @@ h5 {
 
 
 @media screen and (min-width: 991px){
+
+
+
+
+  /*      ---------------------------- More Than Fluffy -----------------------------       */
+
+
+  .MacHeroFluffy {
+    margin: 0 auto;
+    grid-column: span 6;
+    display: grid;
+  /*background-color: pink;*/
+    overflow:inherit;
+    width: 70%;
+    max-width: 1582px;
+    margin: 0 auto;
+
+  }
+
+
+
+
+  .ThreePeoplePersona {
+    max-width: 1156px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-gap: 56px;
+}
+
+  .AlreadyPetOwner {
+    background-color: red;
+  }
+
+  .Persona01 {
+    display: grid;
+    width: 550px;
+
+
+  }
+
+  .Persona02 {
+    display: grid;
+    width: 550px;
+  }
+
+  .FirstTimeCatOwner {
+    display: grid;
+    grid-column: span 6;
+    background-color: orange;
+    width: 550px;
+
+  }
+
+  .Persona03 {
+    width: 550px;
+  }
+
+
+
+
+
+
+  /*      ---------------------------- More Than Fluffy -----------------------------       */
+
+
 
   .WholeProcessBG {
    padding-bottom: 128px;
@@ -1363,40 +1444,7 @@ h2 {
   width: 412px;
 }*/
 
-.ThreePeoplePersona {
-  max-width: 1156px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 550px 550px;
-  background-color: yellow;
-  grid-gap: 56px;
-}
 
-.Persona01 {
-  display: grid;
-  width: 550px;
-
-}
-
-.Persona02 {
-  display: grid;
-  width: 550px;
-}
-
-.FirstTimeCatOwner {
-  display: grid;
-  grid-column: span 6;
-  margin: 0 auto;
-  background-color: orange;
-
-
-  width: 550px;
-}
-
-.Persona03 {
-  width: 550px;
-
-}
 
 
 
