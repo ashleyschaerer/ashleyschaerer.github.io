@@ -401,6 +401,7 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
   padding-top: 50px;
+  /*background-color: yellow;*/
 }
 
 
@@ -410,17 +411,18 @@ footer {
 }
 
 .all-work {
-  margin: 0 auto;
-  display: grid;
+  margin-left: 30px;
+  margin-right: 30px;
+    display: grid;
   grid-column: span 6;
 }
 
 .HomepageHeroImage {
-  box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
   /*max-width: 980px;*/
   /*width: 100%;*/
   transition: transform .3s;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 
@@ -433,9 +435,9 @@ footer {
 
 .HomepageHeroImage02 {
   margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
   transition: transform .3s;
-  width: 80%;
+  width: 100%;
 }
 
 .HomepageHeroImage02:hover {
@@ -444,6 +446,19 @@ footer {
 
 .ProjectText {
   margin-top: 40px;
+  /*margin-bottom: 80px;*/
+  /*background-color: yellow;*/
+  display: grid;
+  grid-column: span 6;
+  text-align: center;
+
+  /*align-items: center;
+  justify-content: center;*/
+
+}
+
+.ProjectTextCat {
+  margin-top: 52px;
   /*margin-bottom: 80px;*/
   /*background-color: yellow;*/
   display: grid;
@@ -1256,8 +1271,42 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+  .all-work {
+    display: flex;
+    /*background-color: yellow;*/
+    justify-content: center;
+    align-items: center;
+    max-width: 1124px;
+    margin: 0 auto;
+
+    }
+
+    .Project {
+      width: 630px;
+      margin-right: 100px;
+      /*background-color: pink;*/
+      height: 500px;
+
+    }
+
+    .Project02 {
+      width: 520px;
+      /*background-color: green;*/
+      /*background-color: blue;*/
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      margin-right: 50px;
+    }
 
 
+      .HomepageHeroImage {
+        width: 630px;
+      }
+      .HomepageHeroImage02 {
+        width: 520px;
+
+      }
 
   /*      ---------------------------- More Than Fluffy -----------------------------       */
 
@@ -1473,33 +1522,7 @@ h1 {
 
 
 
-.all-work {
-  display: flex;
-  /*background-color: yellow;*/
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 
-  }
-
-  .Project {
-    width: 616px;
-    margin-right: 200px;
-  }
-
-  .Project02 {
-    width: 316px;
-    /*background-color: green;*/
-    padding-bottom: 50px;
-  }
-
-  .HomepageHeroImage {
-    width: 616px;
-  }
-  .HomepageHeroImage02 {
-    width: 316px;
-  }
 
 /*.HomepageHeroImage {
   max-width: 980px;
