@@ -1283,6 +1283,7 @@ h5 {
     display: grid;
     grid-template-columns: 550px 550px;
     grid-gap: 56px;
+    padding-top: 65px;
 }
 
   .AlreadyPetOwner {
