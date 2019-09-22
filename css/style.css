@@ -579,7 +579,7 @@ grid-column: span 6;
 
 .prototype-button {
   background-color: #FF6F61;
-  width: 190px;
+  width: 200px;
   font-size: 1.6em;
   font-family: 'Raleway';
   font-weight: 600;
@@ -607,7 +607,7 @@ grid-column: span 6;
 
 .viewprototypeb {
   background-color: #FF6F61;
-  width: 169px;
+  width: 200px;
   font-size: 1.6em;
   font-family: 'Raleway';
   font-weight: 600;
@@ -920,13 +920,83 @@ h6 {
 }
 
 
+/* -------- User Testing Round 02 ----------------------*/
+.UserTesting02 {
+  display: grid;
+  margin: 0 auto;
+  max-width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
+
+}
+
+.BeforeAfter {
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  color: #FF6F61;
+  /*padding-left: 16px;*/
+  margin-top: 15px;
+}
 
 
+.PreferenceCatTitle {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Raleway';
+  font-size: 2.4em;
+  font-weight: 200;
+  padding-top: 32px;
+  line-height: 1.6;
+  padding: 10px 16px 10px 0;
+}
 
+.PreferenceTestingImages {
+  display: grid;
+  width: 73%;
+ grid-column: span 3;
+  margin: 0 auto;
 
+}
 
+.group01 {
+  display: grid;
+grid-template-columns: 3fr 3fr;
+ margin: 0 auto;
 
+}
+.group02 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin: 0 auto;
 
+}
+.group03 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin: 0 auto;
+
+}
+
+.PreferenceYes {
+/*width: 184px;*/
+grid-column: 1fr;
+color: #FF6F61;
+
+padding-top: 30px;
+width: 100%;
+text-align: center;
+margin: 0 auto;
+}
+.PreferenceNo {
+/*width: 184px;*/
+grid-column: 1fr;
+
+padding-top: 30px;
+width: 100%;
+text-align: center;
+margin: 0 auto;
+}
 /*      ---------------------------- More Than Fluffy -----------------------------       */
 
 
@@ -1391,11 +1461,10 @@ h5 {
 
   .UserTestingCatList {
     display: grid;
-    grid-template-columns: 641px 483px;
+    grid-template-columns: 3fr 3fr;
     margin-top: 50px;
-    /*background-color: red;*/
-    width: 1124px;
-    grid-gap: 16px;
+    max-width: 1124px;
+    grid-gap: 32px;
   }
 
   .CatConclusion {
@@ -1404,7 +1473,6 @@ h5 {
     margin-left: 1.2em;
     font-size: 1.6em;
     font-weight: 300;
-
     line-height: 1.6;
   }
 
@@ -1412,23 +1480,25 @@ h5 {
     display: grid;
     margin: 0 auto;
     /*background-color: green;*/
-    width: 641px;
-  }
+    grid-column: 3fr;
+ }
 
   .RightCat {
     display: grid;
     margin: 0 auto;
-    /*background-color: yellow;*/
-    width: 483px;
-    padding-top: 18px;
+    grid-column: 3fr;
+   padding-top: 18px;
     height: 200px;
+  }
+  .RightCatText {
+    display: grid;
+    grid-column: span 6;
+
   }
 
   .RightCatConclusion {
     display: grid;
-    margin: 0 auto;
-    /*background-color: blue;*/
-    width: 483px;
+    grid-column: span 6;
   }
 
 .ConclusionText {
@@ -1456,6 +1526,106 @@ h5 {
   margin-top: 20px;
 }
 
+.containerUserTesting02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  /*padding-left: 301px;
+  padding-right: 301px;*/
+  grid-column-gap: 32px;
+  grid-row-gap: 90px;
+  margin-top: 70px;
+  padding-top: 70px;
+  max-width: 1124px;
+  margin: 0 auto;
+  /*padding-top: 123px;*/
+}
+
+
+.BeforeAfter {
+font-weight: 700;
+color: #FF6F61;
+/*padding-left: 16px;*/
+margin-top: 15px;
+}
+
+.UserTesting02 {
+  display: grid;
+grid-column: 1fr;
+ box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);
+
+}
+
+.PreferenceCatTitle {
+  margin-top: 200px;
+
+}
+
+
+.PreferenceCatTitle {
+  /*padding-left: 301px;
+  padding-right: 301px;*/
+  padding-top: 150px;
+  margin: 0 auto;
+  text-align: center;
+  /*padding-top: 123px;*/
+}
+
+.PreferenceTestingContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  /*padding-left: 301px;
+  padding-right: 301px;*/
+  grid-column-gap: 64px;
+  padding-left: 123px;
+  padding-right: 123px;
+  /*width: 1266px;*/
+  margin: 0 auto;
+  /*padding-top: 123px;*/
+}
+
+.group01 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+
+ /*background-color: yellow;*/
+}
+.group02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+
+  /*background-color: blue;*/
+}
+.group03 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+
+}
+
+.PreferenceYes {
+font-weight: 700;
+grid-column: 1fr;
+color: #FF6F61;
+/*padding-left: 16px;*/
+/*background-color: red;*/
+margin-top: 15px;
+}
+.PreferenceNo {
+font-weight: 300;
+grid-column: 1fr;
+/*padding-left: 16px;*/
+/*background-color: red;*/
+margin-top: 15px;
+}
+.PreferenceTestingImages {
+  display: grid;
+  /*max-width: 250px;*/
+  grid-column: 1fr;
+  width: 100%;
+
+}
 
   /*      ---------------------------- More Than Fluffy -----------------------------       */
 
