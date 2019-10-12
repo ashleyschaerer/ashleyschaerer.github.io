@@ -125,8 +125,12 @@ background-color: yellow;
 .Portrait {
   margin: 0 auto;
   padding-top: 88px;
+  padding-bottom: 20px;
   grid-column: span 6;
   display: grid;
+  width: 250px;
+  display: block;
+  align-items: center;
 
 }
 
@@ -1344,6 +1348,8 @@ h5 {
 
 
 @media screen and (min-width: 991px){
+
+
 
   .all-work {
     display: flex;
