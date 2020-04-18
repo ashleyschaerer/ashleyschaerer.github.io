@@ -67,9 +67,6 @@ body {
 
 
 
-
-
-
 /*MenuwithPDFicon {
   grid-column: span 6;
 background-color: yellow;
@@ -395,10 +392,22 @@ footer {
   font-weight: 600;
 }
 
-.Project {
+/*.Project {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
+  background-color: red;
+
+
+}
+
+
+.Project03 {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  background-color: pink;
+
 }
 
 .Project02 {
@@ -406,8 +415,18 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
   padding-top: 50px;
-  /*background-color: yellow;*/
+  background-color: yellow;
+
 }
+
+.Project04 {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: green;
+
+}*/
 
 
 .LinkProject {
@@ -434,46 +453,46 @@ footer {
 
 }
 
-.HomepageHeroImage:hover {
-  transform: scale(1.05);
-}
-
 .HomepageHeroImage02 {
-  margin: 0 auto;
   /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
+  /*max-width: 980px;*/
+  /*width: 100%;*/
   transition: transform .3s;
   width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
-.HomepageHeroImage02:hover {
+
+/*.HomepageHeroImage:hover {
   transform: scale(1.05);
-}
+}*/
 
-.ProjectText {
+/*.HomepageHeroImage02 {
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+}*/
+
+/*.HomepageHeroImage02:hover {
+  transform: scale(1.05);
+}*/
+
+/*.ProjectText {
   margin-top: 40px;
-  /*margin-bottom: 80px;*/
-  /*background-color: yellow;*/
   display: grid;
   grid-column: span 6;
   text-align: center;
-
-  /*align-items: center;
-  justify-content: center;*/
 
 }
 
 .ProjectTextCat {
   margin-top: 52px;
-  /*margin-bottom: 80px;*/
-  /*background-color: yellow;*/
   display: grid;
   grid-column: span 6;
   text-align: center;
 
-  /*align-items: center;
-  justify-content: center;*/
-
-}
+}*/
 
 .LinkProjectCaseStudy {
   text-decoration: none;
@@ -563,7 +582,6 @@ grid-column: span 6;
   color: #6B6D6B;
   line-height: 1.3;
   margin-top: 40px;
-
 }
 
 .RoleToolBold {
@@ -578,7 +596,6 @@ grid-column: span 6;
   grid-column: span 6;
   margin-top: 24px;
 }
-
 
 
 .prototype-button {
@@ -598,15 +615,11 @@ grid-column: span 6;
   justify-content: center;
   margin-top: 40px;
   padding-top: 14px;
-
-
-
 }
 .Prototypebuttonend {
   margin: 0 auto;
   display: grid;
   grid-column: span 6;
-
 }
 
 .viewprototypeb {
@@ -622,11 +635,7 @@ grid-column: span 6;
   text-align: center;
   padding-top: 17px;
   margin-top: 40px;
-
-
 }
-
-
 
 
 .UserStoriesButton {
@@ -651,9 +660,6 @@ grid-column: span 6;
   display: none;
 }
 
-
-
-
 .button-user-stories {
   background-color: #FF6F61;
   width: 215px;
@@ -669,9 +675,6 @@ grid-column: span 6;
   display: inline-block;
   margin: 0 auto;
 }
-
-
-
 
 .Divider {
   display: grid;
@@ -725,8 +728,6 @@ grid-column: span 6;
   margin: 0 auto;
 }
 
-
-
 .Process {
   display: grid;
   grid-column: span 6;
@@ -746,19 +747,11 @@ grid-column: span 6;
   padding-bottom: 64px;
 }
 
-/*.ProcessDetails {
-  padding-left: 16px;
-  padding-right: 16px;
-
-}*/
-
 .test {
   max-width: 696px;
   margin: 0 auto;
 
 }
-
-
 
 .research-percentage {
   font-size: 2.4em;
@@ -766,11 +759,6 @@ grid-column: span 6;
   font-weight: 600;
   color: #FF6F61;
 }
-
-
-
-
-
 
 .CompetitiveAnalysis02 {
   /*padding-left: 16px;
@@ -1146,22 +1134,11 @@ h5 {
 }
 
 
-
-
-/*.LowFidelityWireframes {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
-
 .LowFidelityWireframesWidth {
   max-width: 696px;
   margin: 0 auto;
 }
 
-/*.UserTesting {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
 
 .UserTestingWidth {
   max-width: 696px;
@@ -1173,23 +1150,12 @@ h5 {
   margin: 0 auto;
 }
 
-/*.ConceptAndBranding {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
-
 .ExecutionText {
   /*padding-left: 16px;
   padding-right: 16px;*/
   max-width: 696px;
   margin: 0 auto;
 }
-
-/*.UsabilityTestingText {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
-
 
 .UserTestingHighlights {
   list-style: disc;
@@ -1199,8 +1165,6 @@ h5 {
   padding-top: 32px;
   line-height: 1.6;
   text-indent: -1em;
-
-
 }
 
 .HealthvitaeLOGO {
@@ -1209,11 +1173,6 @@ h5 {
   padding-top: 40px;
   width: 297px;
 }
-/*.PreferenceTestingText {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
-
 
 .PreferenceTopText {
   /*background-color: red;*/
@@ -1221,7 +1180,6 @@ h5 {
   /*padding-left: 16px;*/
   /*font-weight: 700;
   color: #FF6F61;*/
-
 }
 
 .ChosenOne{
@@ -1304,7 +1262,122 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  .all-work {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: yellow;*/
+    /*justify-content: center;
+    align-items: center;*/
+    max-width: 720px;
+    /*max-width: 1224px;*/
+    margin: 0 auto;
 
+    }
+
+  .ProjectText {
+    margin-top: 10px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .ProjectTextCat {
+    margin-top: 22px;
+
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .HomepageHeroImage {
+    /*width: 530px;*/
+    margin: 0 auto;
+    width: 90%;
+
+    display: block;
+    padding-top: 20px;
+  }
+  .HomepageHeroImage02 {
+    /*width: 420px;*/
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    padding-top: 20px;
+  }
+
+  .HomepageHeroImage04 {
+    /*width: 420px;*/
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .Project {
+    /*height: 310px;*/
+    background-color: #F2F6F2;
+    border-radius: 2px;
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .Project:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project02 {
+    /*height: 300px;*/
+    background-color: #F2F6F2;
+    border-radius: 2px;
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /*padding-top: 50px;*/
+  }
+  .Project02:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project03 {
+    /*height: 310px;*/
+    background-color: #F2F6F2;
+    height: 350px;
+    width: 350px;
+    border-radius: 2px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+  }
+
+  .Project03:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project04 {
+    /*height: 300px;*/
+    background-color: #F2F6F2;
+    height: 350px;
+    width: 350px;
+    border-radius: 2px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+  }
+
+  .Project04:hover {
+    background-color: #FF6F61;
+  }
 
 .Story  {
   padding-top: 50px;
@@ -1349,43 +1422,122 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+  .ProjectText {
+    margin-top: 40px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
 
+  }
+
+  .ProjectTextCat {
+    margin-top: 52px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
 
   .all-work {
     display: flex;
+    flex-wrap: wrap;
     /*background-color: yellow;*/
-    justify-content: center;
-    align-items: center;
-    max-width: 1124px;
+    /*justify-content: center;
+    align-items: center;*/
+    max-width: 1020px;
+    /*max-width: 1224px;*/
     margin: 0 auto;
 
     }
 
     .Project {
-      width: 630px;
-      margin-right: 100px;
-      /*background-color: pink;*/
+      width: 500px;
+      /*margin-right: 100px;*/
+      background-color: #F2F6F2;
       height: 500px;
+      border-radius: 2px;
+
 
     }
 
+    .Project:hover {
+      background-color: #FF6F61;
+    }
+
     .Project02 {
-      width: 520px;
+      width: 500px;
       /*background-color: green;*/
+      background-color: #F2F6F2;
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+
+      /*margin-right: 50px;*/
+    }
+
+    .Project02:hover {
+      background-color: #FF6F61;
+    }
+
+    .Project03 {
+      width: 500px;
+      /*margin-right: 100px;*/
+      background-color: #F2F6F2;
+      height: 500px;
+      /*margin-top: 64px;*/
+      border-radius: 2px;
+    }
+
+    .Project03:hover {
+      background-color: #FF6F61;
+    }
+
+    .Project04 {
+      width: 500px;
+      background-color: #F2F6F2;
       /*background-color: blue;*/
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
-      margin-right: 50px;
+      /*margin-right: 50px;*/
+      /*margin-top: 64px;*/
+      border-radius: 2px;
     }
 
+    .Project04:hover {
+      background-color: #FF6F61;
+    }
+
+  /*  .Project03 {
+      width: 520px;
+      background-color: blue;
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      margin-right: 50px;
+      margin-top: 300px;
+    }*/
 
       .HomepageHeroImage {
-        width: 630px;
+        width: 530px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 45px;
       }
       .HomepageHeroImage02 {
-        width: 520px;
+        width: 420px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 40px;
+      }
 
+      .HomepageHeroImage04 {
+        width: 370px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
       }
 
   /*      ---------------------------- More Than Fluffy -----------------------------       */
