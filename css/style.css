@@ -211,6 +211,13 @@ p {
 
 }
 
+.Feedback {
+  font-size: 1.6em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
 .Tagline {
   font-size: 1.8em;
   font-family: 'Raleway';
@@ -2166,6 +2173,21 @@ grid-template-columns: 3fr 3fr;
 
 }*/
 
+.survey-snap {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  max-width: 1582px;
+  width: 80%;
+}
+
+.customer-journey-map {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  width: 696px;
+}
+
 .SitemapImage {
   display: grid;
   grid-column:span 6;
@@ -2173,7 +2195,6 @@ grid-template-columns: 3fr 3fr;
   margin-top: 155px;
   width: 696px;
 }
-
 .Gridmacbook {
   display: grid;
   grid-template-columns: 3fr 3fr;
