@@ -749,6 +749,10 @@ grid-column: span 6;
   color: #FF6F61;
 }
 
+.PhaseBold {
+  font-weight: bold;
+}
+
 .WholeProcessBG {
   background-color: #F2F6F2;
   padding-bottom: 64px;
