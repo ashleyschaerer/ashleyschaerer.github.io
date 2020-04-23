@@ -2229,6 +2229,7 @@ grid-template-columns: 3fr 3fr;
   grid-column:span 6;
   margin: 0 auto;
   max-width: 980px;
+
 }
 
 .customer-journey-map {
