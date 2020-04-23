@@ -772,7 +772,8 @@ grid-column: span 6;
 }
 
 .PhaseBold {
-  font-weight: bold: #FF6F61;
+  font-weight: bold;
+  color: #FF6F61;
 }
 
 .WholeProcessBG {
