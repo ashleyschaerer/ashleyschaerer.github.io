@@ -19,6 +19,28 @@ body {
 
 
 
+/***CARE Rescue LA***/
+
+.care-competitor-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 50%;
+}
+
+.Industry-Analysis-logos {
+  margin: 0 auto;
+  padding-top: 40px;
+
+  display: grid;
+  grid-column: span 6;
+
+}
+
+
+
+
+
 /***Bio***/
 
 .container {
@@ -750,7 +772,7 @@ grid-column: span 6;
 }
 
 .PhaseBold {
-  font-weight: bold;
+  font-weight: bold: #FF6F61;
 }
 
 .WholeProcessBG {
@@ -1432,6 +1454,27 @@ h5 {
 
 
 @media screen and (min-width: 991px){
+
+  /***CARE Rescue LA***/
+
+  .care-competitor-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50%;
+  }
+
+  .Industry-Analysis-logos {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+
+  }
+
+
+
+  /***  ***/
+
 
   .ProjectText {
     margin-top: 40px;
