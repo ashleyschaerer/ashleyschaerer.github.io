@@ -249,6 +249,13 @@ p {
 .Feedback {
   font-family: 'Raleway';
   font-size: 2.4em;
+  font-weight: 200;
+  font-style: italic;
+  color: #6B6D6B;
+}
+
+.FeedbackBold {
+  font-family: 'Raleway';
   font-weight: 600;
   font-style: italic;
   color: #6B6D6B;
