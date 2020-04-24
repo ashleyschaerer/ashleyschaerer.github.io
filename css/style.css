@@ -21,6 +21,19 @@ body {
 
 /***CARE Rescue LA***/
 
+.MacHeroCare {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+/*background-color: pink;*/
+  overflow:inherit;
+  width: 80%;
+  max-width: 1582px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
 .care-competitor-logo {
   display: block;
   margin-left: auto;
@@ -1458,6 +1471,18 @@ h5 {
 @media screen and (min-width: 991px){
 
   /***CARE Rescue LA***/
+
+  .MacHeroCare {
+    margin: 0 auto;
+    grid-column: span 6;
+    display: grid;
+  /*background-color: pink;*/
+    overflow:inherit;
+    width: 69%;
+    max-width: 1582px;
+    margin: 0 auto;
+
+  }
 
   .care-competitor-logo {
     display: grid;
