@@ -38,7 +38,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 50%;
+  max-height: 80%;
+  margin-top: 40px;
 }
 
 .Industry-Analysis-logos {
@@ -1317,6 +1318,8 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+
+
   .all-work {
     display: flex;
     flex-wrap: wrap;
@@ -1494,9 +1497,17 @@ h5 {
   .care-competitor-logo {
     display: grid;
     margin: 0 auto;
-    height: 100%;
+    max-height: 50%;
 
   }
+
+  /*.care-competitor-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80%;
+    margin-top: 40px;
+  }*/
 
   .Industry-Analysis-logos {
     margin: 0 auto;
