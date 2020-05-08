@@ -1521,6 +1521,17 @@ h5 {
   }
 
 
+  .CAREPersonas {
+    display: grid;
+    grid-column: span 2;
+    /*background-color: orange;*/
+    width: 980px;
+    margin: 0 auto;
+
+
+
+  }
+
 
   /***  ***/
 
