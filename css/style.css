@@ -21,6 +21,16 @@ body {
 
 /***CARE Rescue LA***/
 
+
+.RoleCARE {
+  grid-column: span 6;
+}
+
+.ToolCARE {
+  grid-column: span 6;
+  margin-top: 24px;
+}
+
 .MacHeroCare {
   margin: 0 auto;
   grid-column: span 6;
@@ -1483,6 +1493,21 @@ h5 {
 @media screen and (min-width: 991px){
 
   /***CARE Rescue LA***/
+
+  .RoleCARE {
+    display: grid;
+    grid-column: span 3;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .ToolCARE {
+    display: grid;
+    grid-column: span 3;
+    margin: 0 auto;
+    text-align: center;
+
+  }
 
   .MacHeroCare {
     margin: 0 auto;
