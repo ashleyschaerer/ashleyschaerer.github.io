@@ -2623,7 +2623,6 @@ footer {
 .GridFooterText {
   display: grid;
   grid-column: span 3;
-  /*background-color: yellow;*/
   padding-top: 40px;
 }
 
