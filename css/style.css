@@ -1404,7 +1404,7 @@ h5 {
     margin: 0 auto;
     width: 50%;
     display: block;
-    padding-top: 40px;
+    padding-top: 38px;
   }
 
   .Project {
@@ -1441,9 +1441,10 @@ h5 {
 
   .Project03 {
     /*height: 310px;*/
-    background-color: #F2F6F2;
+    /*background-color: #F2F6F2;*/
     height: 350px;
     width: 350px;
+
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
@@ -1459,7 +1460,7 @@ h5 {
 
   .Project04 {
     /*height: 300px;*/
-    background-color: #F2F6F2;
+    /*background-color: #F2F6F2;*/
     height: 350px;
     width: 350px;
     border-radius: 2px;
@@ -1631,7 +1632,7 @@ h5 {
     .Project02 {
       width: 500px;
       /*background-color: green;*/
-      background-color: #F2F6F2;
+      /*background-color: #F2F6F2;*/
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
@@ -1647,7 +1648,8 @@ h5 {
     .Project03 {
       width: 500px;
       /*margin-right: 100px;*/
-      background-color: #F2F6F2;
+      /*background-color: #F2F6F2;*/
+
       height: 500px;
       /*margin-top: 64px;*/
       border-radius: 2px;
@@ -1660,7 +1662,8 @@ h5 {
 
     .Project04 {
       width: 500px;
-      background-color: #F2F6F2;
+      /*background-color: #F2F6F2;*/
+
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
@@ -1697,16 +1700,15 @@ h5 {
       }
 
       .HomepageHeroImageStriped {
-        width: 280px;
+        width: 300px;
         margin: 0 auto;
         display: block;
-        padding-top: 29px;
 
       }
 
       .HomepageHeroImage04 {
         width: 370px;
-        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: block;
         margin: 0 auto;
         margin-top: 40px;
