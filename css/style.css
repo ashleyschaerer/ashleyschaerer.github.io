@@ -285,7 +285,13 @@ p {
   font-weight: 700;
 }
 
+.captions {
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Raleway';
+  grid-column: span 6;
 
+}
 
 footer {
   background-color: #F2F6F2;
@@ -517,6 +523,16 @@ footer {
 }
 
 .HomepageHeroImage02 {
+  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
+  /*max-width: 980px;*/
+  /*width: 100%;*/
+  transition: transform .3s;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.HomepageHeroImageStriped {
   /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
   /*max-width: 980px;*/
   /*width: 100%;*/
@@ -919,7 +935,6 @@ grid-column: span 6;
   grid-column: span 6;
   display: grid;
   margin-top: 24px;
-  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
   width: 100%;
 }
 
@@ -1345,7 +1360,7 @@ h5 {
     }
 
   .ProjectText {
-    margin-top: 10px;
+    margin-top: 22px;
     display: grid;
     grid-column: span 6;
     text-align: center;
@@ -1383,6 +1398,13 @@ h5 {
     width: 70%;
     display: block;
     margin-top: 20px;
+  }
+  .HomepageHeroImageStriped {
+    /*width: 420px;*/
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    padding-top: 40px;
   }
 
   .Project {
@@ -1427,6 +1449,7 @@ h5 {
     grid-column: span 6;
     margin: 0 auto;
     margin-bottom: 10px;
+    padding: 5px;
 
   }
 
@@ -1443,6 +1466,9 @@ h5 {
     display: grid;
     grid-column: span 6;
     margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+
   }
 
   .Project04:hover {
@@ -1549,7 +1575,6 @@ h5 {
   .CAREPersonas {
     display: grid;
     grid-column: span 2;
-    /*background-color: orange;*/
     width: 980px;
     margin: 0 auto;
 
@@ -1562,7 +1587,7 @@ h5 {
 
 
   .ProjectText {
-    margin-top: 40px;
+    margin-top: 28px;
     display: grid;
     grid-column: span 6;
     text-align: center;
@@ -1626,6 +1651,7 @@ h5 {
       height: 500px;
       /*margin-top: 64px;*/
       border-radius: 2px;
+
     }
 
     .Project03:hover {
@@ -1635,7 +1661,6 @@ h5 {
     .Project04 {
       width: 500px;
       background-color: #F2F6F2;
-      /*background-color: blue;*/
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
@@ -1671,12 +1696,21 @@ h5 {
         padding-top: 40px;
       }
 
+      .HomepageHeroImageStriped {
+        width: 280px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 29px;
+
+      }
+
       .HomepageHeroImage04 {
         width: 370px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
         display: block;
         margin: 0 auto;
         margin-top: 40px;
+        border-radius: 2px;
       }
 
   /*      ---------------------------- More Than Fluffy -----------------------------       */
