@@ -380,7 +380,13 @@ footer {
 
 /***homepage***/
 
+.Project03:hover {
+  background-color: #F2F6F2;
+}
 
+.Project04:hover {
+  background-color: #F2F6F2;
+}
 
 .Hero {
   /*background-color: orange;*/
@@ -1454,9 +1460,7 @@ h5 {
 
   }
 
-  .Project03:hover {
-    background-color: #FF6F61;
-  }
+
 
   .Project04 {
     /*height: 300px;*/
@@ -1472,9 +1476,6 @@ h5 {
 
   }
 
-  .Project04:hover {
-    background-color: #FF6F61;
-  }
 
 .Story  {
   padding-top: 50px;
@@ -1656,9 +1657,7 @@ h5 {
 
     }
 
-    .Project03:hover {
-      background-color: #FF6F61;
-    }
+
 
     .Project04 {
       width: 500px;
@@ -1672,9 +1671,7 @@ h5 {
       border-radius: 2px;
     }
 
-    .Project04:hover {
-      background-color: #FF6F61;
-    }
+
 
   /*  .Project03 {
       width: 520px;
