@@ -274,8 +274,8 @@ p {
 
 .Tagline {
   font-size: 1.8em;
-  font-family: 'Raleway';
-  font-weight: 200;
+  /*font-family: 'Raleway';*/
+  font-weight: 300;
   text-align: center;
   padding-bottom: 40px;
   padding-top: 16px;
@@ -451,15 +451,17 @@ footer {
   /*margin-top: 40px;*/
   /*background-color: red;*/
   padding-top: 40px;
-  padding-left: 17px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
   padding-bottom: 56px;
-  padding-right: 18px;
   font-family: 'Raleway';
   font-weight: 200;
   font-size: 1.8em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
-  max-width: 846px;
+  max-width: 836px;
   margin: 0 auto;
 
 
@@ -703,7 +705,7 @@ grid-column: span 6;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  padding-top: 14px;
+  padding-top: 10px;
 }
 .Prototypebuttonend {
   margin: 0 auto;
