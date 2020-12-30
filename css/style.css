@@ -977,7 +977,7 @@ grid-column: span 6;
   /*background-color: red;*/
   overflow:inherit;
   width: 100%;
-  padding-top: 56px;
+  /*padding-top: 56px;*/
   max-width: 980px;
   margin: 0 auto;
 
@@ -1221,6 +1221,15 @@ h5 {
 
 
 .SitemapUserFlows {
+  /*padding-left: 16px;
+  padding-right: 16px;*/
+  max-width: 696px;
+  margin: 0 auto;
+
+}
+
+
+.SitemapUserFlowsStripedHorses {
   /*padding-left: 16px;
   padding-right: 16px;*/
   max-width: 696px;
@@ -1782,6 +1791,13 @@ h5 {
     max-width: 696px;
   }
 
+  .SitemapTextStripedHorses {
+    display: grid;
+    grid-column: span 6;
+    height: 240px;
+    max-width: 696px;
+  }
+
   .UserTestingCat {
    max-width: 1124px;
    margin: 0 auto;
@@ -2311,6 +2327,15 @@ grid-template-columns: 3fr 3fr;
   margin: 0 auto;
 }
 
+.SitemapUserFlowsStripedHorses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 32px;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  margin: 0 auto;
+}
+
 
 .ButtonUserFlows {
   background-color: #2CB3ED;
@@ -2365,6 +2390,14 @@ grid-template-columns: 3fr 3fr;
   grid-column:span 6;
   margin: 0 auto;
   margin-top: 155px;
+  width: 696px;
+}
+
+.SitemapImageStripedHorses {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  margin-top: 55px;
   width: 696px;
 }
 
