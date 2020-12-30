@@ -977,7 +977,7 @@ grid-column: span 6;
   /*background-color: red;*/
   overflow:inherit;
   width: 100%;
-  /*padding-top: 56px;*/
+  padding-top: 56px;
   max-width: 980px;
   margin: 0 auto;
 
