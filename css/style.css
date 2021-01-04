@@ -2191,11 +2191,24 @@ h2 {
   grid-template-columns: 3fr 3fr;
   /*padding-left: 230px;
   padding-right: 230px;*/
-  max-width: 696px;
+  max-width: 980px;
   margin: 0 auto;
 
   grid-column-gap: 75px;
   grid-row-gap: 40px;
+  margin-top: 70px;
+  /*padding-top: 123px;*/
+}
+
+.UserStripedHorses {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  max-width: 980px;
+  margin: 0 auto;
+
+  grid-column-gap: 75px;
   margin-top: 70px;
   /*padding-top: 123px;*/
 }
