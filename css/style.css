@@ -265,6 +265,13 @@ p {
   color: #3C3F3E;
 }
 
+.FeedbackStripedHorses {
+  font-size: 1.6em;
+  font-style: italic;
+  line-height: 1.7;
+  color: #3C3F3E;
+}
+
 .FeedbackBold {
   font-family: 'Raleway';
   font-weight: 600;
