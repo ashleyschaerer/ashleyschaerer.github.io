@@ -2211,6 +2211,20 @@ h2 {
   /*padding-top: 123px;*/
 }
 
+.MomQuotesStripedHorses {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  max-width: 980px;
+  margin: 0 auto;
+
+  grid-column-gap: 24px;
+  grid-row-gap: 80px;
+  margin-top: 70px;
+  /*padding-top: 123px;*/
+}
+
 .UserStripedHorses {
   display: grid;
   grid-template-columns: 3fr 3fr;
