@@ -293,6 +293,17 @@ p {
 
 }
 
+.SubTitle {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+
+
+}
+
 footer {
   background-color: #F0F4F4;
   display: grid;
@@ -2204,6 +2215,16 @@ h2 {
   grid-row-gap: 40px;
   margin-top: 70px;
   /*padding-top: 123px;*/
+}
+
+.ResearchHighlightsStripedHorses {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  max-width: 980px;
+  margin: 0 auto;
+
+  grid-column-gap: 75px;
+  grid-row-gap: 40px;
 }
 
 .containerresearchStripedHorses {
