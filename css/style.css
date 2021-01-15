@@ -302,15 +302,6 @@ p {
 
 }
 
-.SubTitle {
-  text-align: left;
-  font-family: 'Raleway';
-  font-size: 1.6em;
-  font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: #E3607F;
-  padding-top: 40px;
-}
 .research-data {
   font-style: italic;
 
@@ -979,7 +970,7 @@ grid-column: span 6;
 
 
 .ProcessDetailsStripedHorses {
-  background-color: #F0F4F4;
+  /*background-color: #F0F4F4;*/
 }
 
 
@@ -1411,7 +1402,15 @@ h5 {
 
 @media screen and (min-width: 375px){
 
-
+  .SubTitle {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #E3607F;
+    padding-top: 40px;
+  }
 
   .all-work {
     display: flex;
@@ -1587,6 +1586,15 @@ h5 {
 @media screen and (min-width: 991px){
 
   /*** Striped Horses ***/
+  .SubTitle {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #E3607F;
+    padding-top: 80px;
+  }
   .CompetitorTitleStripedHorses {
     text-align: center;
     margin-bottom: -20px;
