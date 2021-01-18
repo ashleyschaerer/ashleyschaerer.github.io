@@ -487,44 +487,6 @@ footer {
 }
 
 
-
-/*.Project {
-  display: grid;
-  grid-column: span 6;
-  margin: 0 auto;
-  background-color: red;
-
-
-}
-
-
-.Project03 {
-  display: grid;
-  grid-column: span 6;
-  margin: 0 auto;
-  background-color: pink;
-
-}
-
-.Project02 {
-  display: grid;
-  grid-column: span 6;
-  margin: 0 auto;
-  padding-top: 50px;
-  background-color: yellow;
-
-}
-
-.Project04 {
-  display: grid;
-  grid-column: span 6;
-  margin: 0 auto;
-  padding-top: 50px;
-  background-color: green;
-
-}*/
-
-
 .LinkProject {
   text-decoration: none;
   color: #3C3F3E;
@@ -569,45 +531,11 @@ footer {
   display: block;
 }
 
-
-/*.HomepageHeroImage:hover {
-  transform: scale(1.05);
-}*/
-
-/*.HomepageHeroImage02 {
-  margin: 0 auto;
-  transition: transform .3s;
-  width: 100%;
-}*/
-
-/*.HomepageHeroImage02:hover {
-  transform: scale(1.05);
-}*/
-
-/*.ProjectText {
-  margin-top: 40px;
-  display: grid;
-  grid-column: span 6;
-  text-align: center;
-
-}
-
-.ProjectTextCat {
-  margin-top: 52px;
-  display: grid;
-  grid-column: span 6;
-  text-align: center;
-
-}*/
-
 .LinkProjectCaseStudy {
   text-decoration: none;
   color: #3C3F3E;
 }
 
-/*.LinkProjectCaseStudy:hover {
-  color: #FF6F61;
-}*/
 
 .ProjectTextBold {
   font-weight: 700;
@@ -616,26 +544,6 @@ footer {
 
   line-height: 2.2;
 }
-
-/*.ViewCaseStudy {
-  background-color: #FF6F61;
-  width: 169px;
-  font-size: 1.6em;
-  font-family: 'Raleway';
-  font-weight: 600;
-  color: #FFFFFF;
-  text-decoration: none;
-  height: 48px;
-  border-radius: 40px;
-  text-align: center;
-  grid-column: span 6;
-  margin: 0 auto;
-
-  margin-top: 40px;
-  padding-top: 17px;
-}*/
-
-
 
 
 /***case study***/
@@ -788,10 +696,8 @@ grid-column: span 6;
   margin-top: 40px;
 }
 
-
 .UserStoriesButton {
  display: none;
-
 }
 
 .ButtonUserFlows {
@@ -821,7 +727,6 @@ grid-column: span 6;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
-  /*margin-top: 40px;*/
   padding-top: 17px;
   display: inline-block;
   margin: 0 auto;
@@ -850,7 +755,6 @@ grid-column: span 6;
   max-width: 696px;
   margin: 0 auto;
 }
-
 
 .DashboardCaseStudy {
   margin: 0 auto;
@@ -1024,7 +928,23 @@ grid-column: span 6;
 
 /*      ---------------------------- Striped Horses -----------------------------       */
 
+.UserStripedHorses {
+  display: grid;
+  grid-column: span 6;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  max-width: 696px;
+  margin: 0 auto;
 
+  grid-column-gap: 75px;
+  margin-top: 20px;
+  /*padding-top: 123px;*/
+}
+
+.UserPhoto {
+display: block;
+width: 100%;
+}
 
 .ProcessDetailsStripedHorses {
   /*background-color: #F0F3F5;*/
@@ -2365,11 +2285,11 @@ h2 {
   grid-template-columns: 3fr 3fr;
   /*padding-left: 230px;
   padding-right: 230px;*/
-  max-width: 980px;
+  max-width: 696px;
   margin: 0 auto;
 
   grid-column-gap: 75px;
-  margin-top: 70px;
+  margin-top: 20px;
   /*padding-top: 123px;*/
 }
 
