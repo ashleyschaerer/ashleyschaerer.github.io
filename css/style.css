@@ -307,6 +307,7 @@ p {
 }
 
 
+
 footer {
   background-color: #F0F4F4;
   display: grid;
@@ -1072,8 +1073,8 @@ grid-column: span 6;
   /*padding-top: 56px;*/
   max-width: 980px;
   margin: 0 auto;
-
 }
+
 
 
 h6 {
@@ -1466,9 +1467,8 @@ h5 {
     color: #E3607F;
     font-size: 1.6em;
     font-weight: 600;
-    /*text-decoration: underline;
-    text-decoration-color: #E3607F;*/
     padding-top: 40px;
+
   }
 
   .all-work {
@@ -1651,9 +1651,10 @@ h5 {
     color: #E3607F;
     font-size: 1.6em;
     font-weight: 600;
-    /*text-decoration: underline;
-    text-decoration-color: #E3607F;*/
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: blue;
+
   }
   .CompetitorTitleStripedHorses {
     text-align: center;
