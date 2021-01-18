@@ -743,8 +743,29 @@ grid-column: span 6;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
+
+
+.prototype-buttonStripedHorses {
+  background-color: #E3607F;
+  width: 200px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 15px;
+}
+
 .Prototypebuttonend {
   margin: 0 auto;
   display: grid;
@@ -909,7 +930,7 @@ grid-column: span 6;
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 600;
-  color: #E3607F;
+  color: #7A9FB9;
 }
 
 .research-percentageStripedHorses {
@@ -918,7 +939,7 @@ grid-column: span 6;
   letter-spacing: 0.5px;
   font-family: 'Raleway';
   font-weight: 600;
-  color: #E3607F;
+  color: #7A9FB9;
   text-transform: uppercase;
 
 
@@ -1442,10 +1463,11 @@ h5 {
   .SubTitle {
     text-align: left;
     font-family: 'Raleway';
+    color: #E3607F;
     font-size: 1.6em;
     font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: #E3607F;
+    /*text-decoration: underline;
+    text-decoration-color: #E3607F;*/
     padding-top: 40px;
   }
 
@@ -1626,10 +1648,11 @@ h5 {
   .SubTitle {
     text-align: left;
     font-family: 'Raleway';
+    color: #E3607F;
     font-size: 1.6em;
     font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: #E3607F;
+    /*text-decoration: underline;
+    text-decoration-color: #E3607F;*/
     padding-top: 80px;
   }
   .CompetitorTitleStripedHorses {
@@ -2233,7 +2256,14 @@ h1 {
   display: grid;
   grid-column: span 2;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.prototype-buttonStripedHorses {
+  display: grid;
+  grid-column: span 2;
+  margin: 0 auto;
+  padding-bottom: 15px;
 
 }
 
@@ -2547,6 +2577,7 @@ grid-template-columns: 3fr 3fr;
 .prototype-buttonLoFiWIREFRAMES {
   display: inline;
 }
+
 
 /*.SitemapUserFlowImage {
   margin: 0 auto;
