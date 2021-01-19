@@ -1892,7 +1892,7 @@ h5 {
     display: grid;
     grid-template-columns: 3fr 3fr;
     margin-top: 50px;
-    max-width: 980px;
+    width: 980px;
     grid-gap: 32px;
     background-color: green;
   }
@@ -2294,6 +2294,7 @@ h2 {
   grid-column-gap: 75px;
   grid-row-gap: 40px;
   margin-top: 70px;
+  background-color: red;
   /*padding-top: 123px;*/
 }
 
