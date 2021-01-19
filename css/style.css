@@ -848,6 +848,9 @@ grid-column: span 6;
   color: #2CB3ED;
 }
 
+.NumberCare {
+  color: #2A41D7;
+}
 .NumberStriped {
   color: #E3607F;
 }
@@ -855,6 +858,11 @@ grid-column: span 6;
 .PhaseBold {
   font-weight: bold;
   color: #2CB3ED;
+}
+
+.PhaseBoldCARE {
+  font-weight: bold;
+  color: #2A41D7;
 }
 
 .WholeProcessBG {
@@ -880,6 +888,13 @@ grid-column: span 6;
   font-family: 'Raleway';
   font-weight: 600;
   color: #2CB3ED;
+}
+
+.research-percentageCARE {
+  font-size: 2.4em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #2A41D7;
 }
 
 .research-percentageStripes {
