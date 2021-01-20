@@ -777,6 +777,23 @@ grid-column: span 6;
   font-size: 1.6em;
   font-family: 'Raleway';
   font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 17px;
+  margin-top: 40px;
+}
+
+.viewprototypebCat {
+  background-color: #FF1194;
+  width: 200px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  letter-spacing: 0.5px;
   color: #FFFFFF;
   text-decoration: none;
   height: 48px;
@@ -826,7 +843,15 @@ grid-column: span 6;
   display: none;
 }
 
+.ButtonUserFlowsCat {
+  display: none;
+}
+
 .StyleGuideButton {
+  display: none;
+}
+
+.StyleGuideButtonCat {
   display: none;
 }
 
@@ -836,6 +861,10 @@ grid-column: span 6;
 
 
 .lofiwireframebutton {
+  display: none;
+}
+
+.lofiwireframebuttonCat {
   display: none;
 }
 
@@ -857,6 +886,22 @@ grid-column: span 6;
 
 .button-user-stories {
   background-color: #2CB3ED;
+  width: 215px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  padding-top: 17px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.button-user-storiesCat {
+  background-color: #FF1194;
   width: 215px;
   font-size: 1.6em;
   font-family: 'Raleway';
@@ -1449,7 +1494,7 @@ h3 {
 h5 {
   font-weight: 700;
   font-size: 1.6em;
-  color: #2CB3ED;
+  /*color: #2CB3ED;*/
   padding-top: 32px;
   line-height: 1.6;
   padding: 10px 16px 10px 0;
@@ -2240,7 +2285,7 @@ h5 {
 
 .BeforeAfter {
 font-weight: 700;
-color: #2CB3ED;
+color: #3C3F3E;
 /*padding-left: 16px;*/
 margin-top: 15px;
 }
@@ -2304,7 +2349,7 @@ grid-column: 1fr;
 .PreferenceYes {
 font-weight: 700;
 grid-column: 1fr;
-color: #2CB3ED;
+color: #FF1194;
 /*padding-left: 16px;*/
 /*background-color: red;*/
 margin-top: 15px;
@@ -2723,6 +2768,10 @@ width: 100%;
   display: inline;
 }
 
+.ButtonUserFlowsCat {
+  display: inline;
+}
+
  /*.UserStories {
   max-width: 696px;
   margin: 0 auto;
@@ -2855,6 +2904,27 @@ grid-template-columns: 3fr 3fr;
   width: 220px;
   font-size: 1.6em;
   font-family: 'Raleway';
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  margin-top: 80px;
+}
+
+.ButtonUserFlowsCat {
+  background-color: #FF1194;
+  width: 220px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
   font-weight: 600;
   color: #FFFFFF;
   text-decoration: none;
@@ -2997,6 +3067,27 @@ grid-template-columns: 3fr 3fr;
   font-size: 1.6em;
   font-family: 'Raleway';
   font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  display: inline;
+}
+
+.StyleGuideButtonCat {
+  background-color: #FF1194;
+  width: 220px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  letter-spacing: 0.5px;
   color: #FFFFFF;
   text-decoration: none;
   height: 48px;
@@ -3040,6 +3131,25 @@ grid-template-columns: 3fr 3fr;
   font-family: 'Raleway';
   letter-spacing: 0.5px;
 
+  font-weight: 600;
+  font-size: 1.6em;
+  height: 48px;
+  padding-top: 17px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-top: 80px;
+}
+
+.lofiwireframebuttonCat {
+  background-color: #FF1194;
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  text-align: center;
+  width: 220px;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
   font-weight: 600;
   font-size: 1.6em;
   height: 48px;
