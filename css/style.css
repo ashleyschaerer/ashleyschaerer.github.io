@@ -308,6 +308,7 @@ p {
 
 
 
+
 footer {
   background-color: #F0F4F4;
   display: grid;
@@ -893,6 +894,10 @@ grid-column: span 6;
   color: #2CB3ED;
 }
 
+.NumberHealth {
+  color: #90DC43;
+}
+
 .NumberCare {
   color: #2A41D7;
 }
@@ -935,6 +940,13 @@ grid-column: span 6;
   color: #2CB3ED;
 }
 
+.research-percentageHealth {
+  font-size: 2.4em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #90DC43;
+}
+
 .research-percentageCARE {
   font-size: 2.4em;
   font-family: 'Raleway';
@@ -971,6 +983,10 @@ grid-column: span 6;
 
 .CompetitiveTextBold {
   color: #2CB3ED;
+  font-weight: 700;
+}
+
+.CompetitiveTextBoldHealth {
   font-weight: 700;
 }
 
@@ -1286,6 +1302,13 @@ h3 {
   font-size: 2.4em;
   font-weight: 600;
   color: #2CB3ED;
+}
+
+.MillenialGenXHealth {
+  font-family: 'Raleway';
+  font-size: 2.4em;
+  font-weight: 600;
+  color: #90DC43;
 }
 
 .Frustrations {
