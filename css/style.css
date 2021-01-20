@@ -753,6 +753,22 @@ grid-column: span 6;
   margin-top: 40px;
 }
 
+.viewprototypebHealth {
+  background-color: #B4ED7A;
+  width: 200px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #3C3F3E;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 17px;
+  margin-top: 40px;
+}
+
 .viewprototypebStriped {
   background-color: #E3607F;
   width: 230px;
@@ -781,8 +797,16 @@ grid-column: span 6;
   display: none;
 }
 
+.StyleGuideButtonHealth {
+  display: none;
+}
+
 
 .lofiwireframebutton {
+  display: none;
+}
+
+.lofiwireframebuttonHealth {
   display: none;
 }
 
@@ -803,8 +827,25 @@ grid-column: span 6;
   width: 215px;
   font-size: 1.6em;
   font-family: 'Raleway';
+  letter-spacing: 0.5px;
   font-weight: 600;
   color: #FFFFFF;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  padding-top: 17px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.button-user-storiesHealth {
+  background-color: #B4ED7A;
+  width: 215px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #3C3F3E;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -818,6 +859,7 @@ grid-column: span 6;
   width: 230px;
   font-size: 1.6em;
   font-family: 'Raleway';
+  letter-spacing: 0.5px;
   font-weight: 600;
   color: #FFFFFF;
   text-decoration: none;
@@ -1308,7 +1350,7 @@ h3 {
   font-family: 'Raleway';
   font-size: 2.4em;
   font-weight: 600;
-  color: #90DC43;
+  color: #3C3F3E;
 }
 
 .Frustrations {
@@ -1353,7 +1395,14 @@ h5 {
   padding-top: 32px;
   line-height: 1.6;
   padding: 10px 16px 10px 0;
-
+}
+.HealthSubHeader {
+  font-weight: 700;
+  font-size: 1.6em;
+  color: #3C3F3E;
+  padding-top: 32px;
+  line-height: 1.6;
+  padding: 10px 16px 10px 0;
 }
 .RightUserStory {
   margin-top: 16px;
@@ -1451,6 +1500,12 @@ h5 {
   /*padding-left: 16px;*/
   margin-top: 15px;
 }
+.ChosenOneHealth{
+  font-weight: 700;
+  /*padding-left: 16px;*/
+  margin-top: 15px;
+}
+
 .Preference {
   /*background-color: yellow;*/
   margin-top: 15px;
@@ -2696,7 +2751,26 @@ grid-template-columns: 3fr 3fr;
   justify-content: center;
   padding-top: 18px;
   margin-top: 80px;
+}
 
+.ButtonUserFlowsHealth {
+  background-color: #B4ED7A;
+  width: 220px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #3C3F3E;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  margin-top: 80px;
 }
 
 .prototype-buttonLoFiWIREFRAMES {
@@ -2812,6 +2886,26 @@ grid-template-columns: 3fr 3fr;
   display: inline;
 }
 
+.StyleGuideButtonHealth {
+  background-color: #B4ED7A;
+  width: 220px;
+  font-size: 1.6em;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #3C3F3E;
+  text-decoration: none;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  grid-column: span 6;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  display: inline;
+}
+
 .lofiwireframebutton {
   background-color: #2CB3ED;
   display: grid;
@@ -2829,6 +2923,25 @@ grid-template-columns: 3fr 3fr;
   border-radius: 40px;
   text-decoration: none;
   color: #FFFFFF;
+  margin-top: 80px;
+}
+
+.lofiwireframebuttonHealth {
+  background-color: #B4ED7A;
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 1.6em;
+  height: 48px;
+  padding-top: 17px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #3C3F3E;
   margin-top: 80px;
 }
 
