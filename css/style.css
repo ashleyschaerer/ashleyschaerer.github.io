@@ -217,7 +217,7 @@ h2 {
   font-size: 2.4em;
   font-weight: 600;
   text-align: center;
-  line-height: 3.2;
+  line-height: 1.5;
   padding-top: 40px;
 }
 
@@ -259,7 +259,7 @@ p {
 
 .Feedback {
   font-family: 'Raleway';
-  font-size: 2.4em;
+  font-size: 2em;
   font-weight: 200;
   font-style: italic;
   color: #3C3F3E;
@@ -403,7 +403,10 @@ footer {
 .Project04:hover {
   /*background-color: #F2F6F2;*/
   background-color: #F0F4F4;
-
+}
+.Project05:hover {
+  /*background-color: #F2F6F2;*/
+  background-color: #F0F4F4;
 }
 
 .Hero {
@@ -1822,7 +1825,10 @@ h5 {
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 5px;
+  }
 
+  .Project05 {
+    display: none;
   }
 
 
@@ -2044,6 +2050,19 @@ h5 {
     .Project04 {
       width: 500px;
       /*background-color: #F2F6F2;*/
+
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      /*margin-right: 50px;*/
+      /*margin-top: 64px;*/
+      border-radius: 2px;
+    }
+
+    .Project05 {
+      width: 500px;
+      /*background-color: #F2F6F2;*/
+      display:inline;
 
       padding-top: 5px;
       height: 500px;
@@ -2629,7 +2648,6 @@ h2 {
   grid-column-gap: 75px;
   grid-row-gap: 40px;
   margin-top: 70px;
-  background-color: red;
   /*padding-top: 123px;*/
 }
 
