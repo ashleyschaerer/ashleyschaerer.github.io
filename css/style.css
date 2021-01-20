@@ -1088,7 +1088,15 @@ grid-column: span 6;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-top: 32px;
+}
 
+.ThreeCompetitorsCat {
+  /*background-color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;*/
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 32px;
 }
 
 .CompetitorsIcon {
@@ -2673,6 +2681,18 @@ width: 100%;
   margin-bottom: 128px;*/
 }
 
+.ThreeCompetitorsCat {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 80px;
+  padding-left: 123px;
+  padding-right: 123px;
+  margin-top: 10px;
+  padding-top: 48px;
+  /*margin-top: 123px;
+  margin-bottom: 128px;*/
+}
+
 .ThreeCompetitorsStripedHorses {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -2903,6 +2923,14 @@ grid-template-columns: 3fr 3fr;
   grid-column:span 6;
   margin: 0 auto;
   margin-top: 155px;
+  width: 696px;
+}
+
+.SitemapImageCat {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  margin-top: 40px;
   width: 696px;
 }
 
