@@ -958,6 +958,7 @@ grid-column: span 6;
   align-items: center;
   justify-content: center;
   padding-top: 64px;
+  padding-bottom: 40px;
 
 }
 
@@ -1320,7 +1321,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
-  color: #2CB3ED;
+  color: #3C3F3E;
   /*padding-left: 16px;*/
   margin-top: 15px;
 }
@@ -1367,7 +1368,7 @@ grid-template-columns: 3fr 3fr;
 .PreferenceYes {
 /*width: 184px;*/
 grid-column: 1fr;
-color: #2CB3ED;
+color: #FF1194;
 
 padding-top: 30px;
 width: 100%;
