@@ -462,7 +462,7 @@ footer {
   justify-content: center;
   text-align: center;
   grid-template-columns: 4fr 2fr;
-  /*background-color: green;*/
+  background-color: green;
 
 }
 
@@ -1687,6 +1687,13 @@ h5 {
 
 
 @media screen and (min-width: 375px){
+
+  .Ashley {
+    font-size: 3.2em;
+    font-weight: 600;
+    font-family: 'Raleway';
+    /*background-color: blue;*/
+  }
 
   .SubTitle {
     text-align: left;
