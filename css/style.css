@@ -1008,7 +1008,7 @@ grid-column: span 6;
   grid-column: span 6;
   /*padding-left: 16px;
   padding-right: 16px;*/
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
   max-width: 696px;
   margin: 0 auto;
 }
