@@ -193,7 +193,7 @@ background-color: yellow;
 .Link {
   color: #2CB3ED;
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   padding-top: 16px;
 }
@@ -844,6 +844,11 @@ grid-column: span 6;
 .ButtonUserFlows {
   display: none;
 }
+
+.ButtonUserFlowsHealth {
+  display: none;
+}
+
 
 .ButtonUserFlowsCat {
   display: none;
@@ -1709,6 +1714,15 @@ h5 {
     padding-top: 40px;
   }
 
+  .SubTitleHealth {
+    text-align: left;
+    font-family: 'Raleway';
+    color: #14A7AF;
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-top: 40px;
+  }
+
   .all-work {
     display: flex;
     flex-wrap: wrap;
@@ -1904,6 +1918,17 @@ h5 {
     text-align: left;
     font-family: 'Raleway';
     color: #FF1194;
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    /*background-color: blue;*/
+  }
+
+  .SubTitleHealth {
+    text-align: left;
+    font-family: 'Raleway';
+    color: #14A7AF;
     font-size: 1.6em;
     font-weight: 600;
     padding-top: 100px;
@@ -2791,6 +2816,9 @@ width: 100%;
 }
 
 .ButtonUserFlows {
+  display: inline;
+}
+.ButtonUserFlowsHealth {
   display: inline;
 }
 
