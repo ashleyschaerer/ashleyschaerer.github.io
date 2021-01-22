@@ -1202,7 +1202,18 @@ grid-column: span 6;
 }
 
 /*      ---------------------------- Striped Horses -----------------------------       */
-
+.containerresearch {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  max-width: 980px;
+  margin: 0 auto;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  margin-top: 20px;
+  /*padding-top: 123px;*/
+}
 .UserStripedHorses {
   display: grid;
   grid-column: span 6;
@@ -1667,6 +1678,8 @@ h5 {
     padding-top: 40px;
   }
 
+
+
   .MomQuotesStripedHorses {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -1955,14 +1968,12 @@ h5 {
     width: 69%;
     max-width: 1582px;
     margin: 0 auto;
-
   }
 
   .care-competitor-logo {
     display: grid;
     margin: 0 auto;
     max-height: 50%;
-
   }
 
   /*.care-competitor-logo {
@@ -1979,7 +1990,6 @@ h5 {
     grid-template-columns: 200px 200px 167px;
     width: 980px;
     grid-gap: 206px;
-
   }
 
 
@@ -1988,9 +1998,6 @@ h5 {
     grid-column: span 2;
     width: 980px;
     margin: 0 auto;
-
-
-
   }
 
 
@@ -2001,8 +2008,7 @@ h5 {
     margin-top: 28px;
     display: grid;
     grid-column: span 6;
-    text-align: center;
-
+    text-align: center
   }
 
   .ProjectTextCat {
@@ -2010,7 +2016,6 @@ h5 {
     display: grid;
     grid-column: span 6;
     text-align: center;
-
   }
 
   .all-work {
@@ -2031,8 +2036,6 @@ h5 {
       background-color: #F0F4F4;
       height: 500px;
       border-radius: 2px;
-
-
     }
 
     .Project:hover {
@@ -2047,7 +2050,6 @@ h5 {
       height: 500px;
       margin-bottom: 10px;
       border-radius: 2px;
-
       /*margin-right: 50px;*/
     }
 
@@ -2059,11 +2061,9 @@ h5 {
       width: 500px;
       /*margin-right: 100px;*/
       /*background-color: #F2F6F2;*/
-
       height: 500px;
       /*margin-top: 64px;*/
       border-radius: 2px;
-
     }
 
 
@@ -2071,7 +2071,6 @@ h5 {
     .Project04 {
       width: 500px;
       /*background-color: #F2F6F2;*/
-
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
@@ -2084,7 +2083,6 @@ h5 {
       width: 500px;
       /*background-color: #F2F6F2;*/
       display:inline;
-
       padding-top: 5px;
       height: 500px;
       margin-bottom: 10px;
@@ -2654,7 +2652,7 @@ h2 {
   padding-left: 230px;
   padding-right: 230px;
   grid-column-gap: 75px;
-  grid-row-gap: 40px;
+  grid-row-gap: 75px;
   margin-top: 70px;
   /*padding-top: 123px;*/
 }
@@ -2688,9 +2686,8 @@ h2 {
   padding-right: 230px;*/
   max-width: 980px;
   margin: 0 auto;
-
   grid-column-gap: 75px;
-  grid-row-gap: 40px;
+  grid-row-gap: 75px;
   margin-top: 20px;
   /*padding-top: 123px;*/
 }
