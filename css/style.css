@@ -1287,8 +1287,6 @@ width: 100%;
   margin: 0 auto;
 }
 
-
-
 h6 {
   font-weight: 700;
   font-size: 1.6em;
@@ -1298,8 +1296,6 @@ h6 {
   /*padding: 10px 16px 10px 0;*/
 
 }
-
-
 
 .CatConclusion {
   list-style: disc;
@@ -1331,7 +1327,6 @@ h6 {
   margin-top: 15px;
 }
 
-
 .PreferenceCatTitle {
   text-align: center;
   margin-top: 100px;
@@ -1348,42 +1343,37 @@ h6 {
   width: 73%;
  grid-column: span 3;
   margin: 0 auto;
-
 }
 
 .group01 {
   display: grid;
 grid-template-columns: 3fr 3fr;
  margin: 0 auto;
-
 }
 .group02 {
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 0 auto;
-
 }
 .group03 {
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 0 auto;
-
 }
 
 .PreferenceYes {
 /*width: 184px;*/
 grid-column: 1fr;
 color: #FF1194;
-
 padding-top: 30px;
 width: 100%;
 text-align: center;
 margin: 0 auto;
 }
+
 .PreferenceNo {
 /*width: 184px;*/
 grid-column: 1fr;
-
 padding-top: 30px;
 width: 100%;
 text-align: center;
@@ -1408,13 +1398,7 @@ margin: 0 auto;
   grid-column: span 6;
   display: grid;
   padding-top: 24px;
-
 }
-
-/*.Personas {
-  padding-left: 16px;
-  padding-right: 16px;
-}*/
 
 .MillenialPersona {
   background-color: #FFFFFF;
@@ -1424,7 +1408,6 @@ margin: 0 auto;
   padding-bottom: 24px;
   border-radius: 8px;
   max-width: 443px;
-
 }
 
 .GenXPersona {
@@ -1435,11 +1418,7 @@ margin: 0 auto;
   padding-bottom: 24px;
   border-radius: 8px;
   max-width: 443px;
-
-
 }
-
-
 
 h3 {
   font-weight: 700;
@@ -1472,7 +1451,6 @@ h3 {
   line-height: 1.6;
   padding: 10px 16px 10px 33px;
   text-indent: -1em;
-
 }
 
 .Goals {
@@ -1524,7 +1502,6 @@ h5 {
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
-
   line-height: 1.6;
 
 }
@@ -1534,28 +1511,22 @@ h5 {
   list-style-position: inside;
   font-size: 1.6em;
   font-weight: 300;
-
   line-height: 1.6;
 }
-
 
 .SitemapUserFlows {
   /*padding-left: 16px;
   padding-right: 16px;*/
   max-width: 696px;
   margin: 0 auto;
-
 }
-
 
 .SitemapUserFlowsStripedHorses {
   /*padding-left: 16px;
   padding-right: 16px;*/
   max-width: 696px;
   margin: 0 auto;
-
 }
-
 
 .LowFidelityWireframesWidth {
   max-width: 696px;
@@ -1635,7 +1606,6 @@ h5 {
 
 .Legibility {
   padding-top: 32px;
-
   list-style:decimal;
   list-style-position: outside;
   font-size: 1.6em;
@@ -1650,7 +1620,6 @@ h5 {
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
-
 }
 
 .ImageRight {
@@ -1664,10 +1633,8 @@ h5 {
 .Conclusion {
   display: grid;
   grid-column: span 6;
-
   margin-bottom: 40px;
   max-width: 696px;
-
   margin: 0 auto;
 }
 
@@ -1676,7 +1643,6 @@ h5 {
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-
   /*margin-bottom: 80px;*/
 }
 
@@ -1693,6 +1659,27 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  .numberoneUser {
+    padding-top: 20px;
+  }
+
+  .numbertwoUser {
+    padding-top: 40px;
+  }
+
+  .MomQuotesStripedHorses {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /*padding-left: 230px;
+    padding-right: 230px;*/
+    max-width: 696px;
+    margin: 0 auto;
+
+    grid-column-gap: 8px;
+    grid-row-gap: 16px;
+    margin-top: 40px;
+    /*padding-top: 123px;*/
+  }
 
 .IntroductionStatementTWO {
   width: 300px;
@@ -1849,15 +1836,9 @@ h5 {
     display: none;
   }
 
-
 .Story  {
   padding-top: 50px;
 }
-
-  /*.container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }*/
 
 .Title {
   padding-left: 50px;
@@ -1868,8 +1849,6 @@ h5 {
   padding-left: 16px;
   padding-right: 16px;
 }
-
-
 
 .GridEmail {
   margin-top: 40px;
@@ -1898,6 +1877,15 @@ h5 {
 
 
 @media screen and (min-width: 991px){
+
+  .numberoneUser {
+    padding-top: 5px;
+  }
+
+  .numbertwoUser {
+    padding-top: 5px
+  }
+
 
   .IntroductionStatementTWO {
     width: 360px;
@@ -2489,25 +2477,17 @@ h1 {
   background-color: yellow;
   grid-gap: 56px;
 }
-
 .Persona01 {
   display: grid;
   width: 550px;
-
 }
-
 .Persona02 {
   display: grid;
   width: 550px;
 }*/
 
-
-
-
-
 /*.HomepageHeroImage {
   max-width: 980px;
-
 }*/
 
 .HeroPage {
@@ -2635,7 +2615,6 @@ h2 {
   margin-top: 88px;
 }
 
-
 /*              More Than Fluffy                 */
 
 /*   Template   */
@@ -2652,8 +2631,6 @@ h2 {
   width: 412px;
 }*/
 
-
-
 /*.Intro {
 
   margin-top:125px;
@@ -2665,13 +2642,11 @@ h2 {
 
 .Solution {
   margin-top:115px;
-
 }
 
 .Process {
   margin-top: 115px;
 }*/
-
 
 .containerresearch {
   display: grid;
