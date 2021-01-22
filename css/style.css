@@ -1851,7 +1851,10 @@ h5 {
 
   }
 
-
+.SKETCHESWIREFRAMES {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
 
   .Project04 {
     /*height: 300px;*/
@@ -2323,7 +2326,6 @@ h5 {
 
 
 .SKETCHESWIREFRAMES {
-  /*background-color: green;*/
   padding-top: 50px;
   padding-bottom: 30px;
 }
