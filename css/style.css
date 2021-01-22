@@ -219,6 +219,7 @@ h2 {
   text-align: center;
   line-height: 1.5;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 h4{
@@ -1201,19 +1202,14 @@ grid-column: span 6;
   margin-top: 56px;
 }
 
-/*      ---------------------------- Striped Horses -----------------------------       */
-.containerresearch {
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-  /*padding-left: 230px;
-  padding-right: 230px;*/
-  max-width: 980px;
-  margin: 0 auto;
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
-  margin-top: 20px;
-  /*padding-top: 123px;*/
+.SitemapUserFlowImageCare {
+  /*background-color: green;*/
+  width: 100%;
+  margin-top: 56px;
 }
+
+/*      ---------------------------- Striped Horses -----------------------------       */
+
 .UserStripedHorses {
   display: grid;
   grid-column: span 6;
@@ -1262,6 +1258,13 @@ width: 100%;
 
 
 .ThreePeoplePersona {
+  display: block;
+  margin: 0 auto;
+  grid-column: span 6;
+  max-width: 696px;
+}
+
+.ThreePeoplePersonaCare {
   display: block;
   margin: 0 auto;
   grid-column: span 6;
@@ -1670,6 +1673,24 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  .SitemapUserFlowImageCare {
+    /*background-color: green;*/
+    width: 100%;
+    margin-top: 26px;
+  }
+  .containerresearch {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    /*padding-left: 230px;
+    padding-right: 230px;*/
+    max-width: 980px;
+    margin: 0 auto;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    margin-top: 20px;
+    /*padding-top: 123px;*/
+  }
+
   .numberoneUser {
     padding-top: 20px;
   }
@@ -1891,6 +1912,12 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+
+  .SitemapUserFlowImageCare {
+    /*background-color: green;*/
+    width: 100%;
+    margin-top: 56px;
+  }
   .numberoneUser {
     padding-top: 5px;
   }
@@ -2157,6 +2184,14 @@ h5 {
     grid-template-columns: 550px 550px;
     grid-gap: 56px;
     padding-top: 65px;
+}
+
+.ThreePeoplePersonaCare {
+  max-width: 1156px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-gap: 24px;
 }
 
   .AlreadyPetOwner {
@@ -2611,6 +2646,7 @@ h1 {
 h2 {
   /*margin-top: 180px;*/
   margin-top: 88px;
+  padding-bottom: 30px
 }
 
 /*              More Than Fluffy                 */
@@ -2647,10 +2683,10 @@ h2 {
 }*/
 
 .containerresearch {
+  width: 980px;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  padding-left: 230px;
-  padding-right: 230px;
+
   grid-column-gap: 75px;
   grid-row-gap: 75px;
   margin-top: 70px;
