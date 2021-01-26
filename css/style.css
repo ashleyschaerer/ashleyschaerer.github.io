@@ -317,7 +317,9 @@ p {
 .research-data {
   font-style: italic;
 }
-
+.research-data-regular {
+  font-style: normal;
+}
 
 
 
@@ -1110,17 +1112,19 @@ grid-column: span 6;
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 600;
-  color: #7A9FB9;
+  /*color: #7A9FB9;*/
+  color: #3C3F3E;
 }
 
 .research-percentageStripedHorses {
   font-size: 1.6em;
   line-height: 1.3;
   letter-spacing: 0.5px;
-  font-family: 'Raleway';
-  font-weight: 600;
-  color: #7A9FB9;
-  text-transform: uppercase;
+  font-weight:700;
+  /*color: #7A9FB9;*/
+  /*color: #3C3F3E;*/
+  color: #CED3D3;
+
 
 
 }
@@ -1172,16 +1176,16 @@ grid-column: span 6;
 }
 
 .PracticeFusionText {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .GoogleDriveText {
-  margin-top: 40px;
+  margin-top: 20px;
 
 }
 
 .DropBoxText {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .MacBook {
@@ -1744,7 +1748,7 @@ h5 {
     font-family: 'Raleway';
     color: #E3607F;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 40px;
   }
   .SubTitleCat {
@@ -1752,7 +1756,7 @@ h5 {
     font-family: 'Raleway';
     color: #FF1194;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 40px;
   }
 
@@ -1761,7 +1765,7 @@ h5 {
     font-family: 'Raleway';
     color: #14A7AF;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 40px;
   }
 
@@ -1946,7 +1950,7 @@ h5 {
     padding-top: 40px;
   }
   .support02 {
-    padding-top: 24px;
+    padding-top: 32px;
   }
 
   .SitemapUserFlowImageCare {
@@ -1973,7 +1977,7 @@ h5 {
     font-family: 'Raleway';
     color: #E3607F;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 100px;
     padding-bottom: 20px;
     /*background-color: blue;*/
@@ -1983,7 +1987,7 @@ h5 {
     font-family: 'Raleway';
     color: #FF1194;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 100px;
     padding-bottom: 20px;
     /*background-color: blue;*/
@@ -1994,7 +1998,7 @@ h5 {
     font-family: 'Raleway';
     color: #14A7AF;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 100px;
     padding-bottom: 20px;
     /*background-color: blue;*/
