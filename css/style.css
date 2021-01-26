@@ -1329,7 +1329,14 @@ h6 {
   margin-left: 1.2em;
   font-size: 1.6em;
   font-weight: 300;
-
+  line-height: 1.6;
+}
+.CatConclusionLeft {
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 1.2em;
+  font-size: 1.6em;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -1940,6 +1947,7 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+
   .captionsStripedversion {
     font-size: 1em;
     padding-top: 56px;
@@ -2322,6 +2330,17 @@ h5 {
     font-size: 1.6em;
     font-weight: 300;
     line-height: 1.6;
+  }
+
+  .CatConclusionLeft {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 1.2em;
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 25px;
+
   }
 
   .LeftCat {
