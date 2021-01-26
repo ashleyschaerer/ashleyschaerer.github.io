@@ -304,7 +304,13 @@ p {
 
 .captionsStriped {
   font-size: 1em;
-  padding-top: 24px;
+  padding-top: 32px;
+  font-weight: 400;
+}
+
+.captionsStripedversion {
+  font-size: 1em;
+  padding-top: 56px;
   font-weight: 400;
 }
 
@@ -1675,6 +1681,12 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  .captionsStripedversion {
+    font-size: 1em;
+    padding-top: 32px;
+    font-weight: 400;
+  }
+
   .SupportGroups {
     padding-top: 32px;
   }
@@ -1923,6 +1935,12 @@ h5 {
 
 
 @media screen and (min-width: 991px){
+
+  .captionsStripedversion {
+    font-size: 1em;
+    padding-top: 56px;
+    font-weight: 400;
+  }
 
   .SupportGroups {
     padding-top: 40px;
