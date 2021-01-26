@@ -300,7 +300,12 @@ p {
   font-weight: 600;
   font-family: 'Raleway';
   grid-column: span 6;
+}
 
+.captionsStriped {
+  font-size: 1em;
+  padding-top: 32px;
+  font-weight: 400;
 }
 
 .research-data {
@@ -1272,10 +1277,7 @@ width: 100%;
 }
 
 .Persona01 {
-
 }
-
-
 
 .Wireframeimage {
   margin: 0 auto;
@@ -1673,6 +1675,13 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  .SupportGroups {
+    padding-top: 32px;
+  }
+  .support02 {
+    padding-top: 16px;
+  }
+
   .SitemapUserFlowImageCare {
     /*background-color: green;*/
     width: 100%;
@@ -1915,6 +1924,12 @@ h5 {
 
 @media screen and (min-width: 991px){
 
+  .SupportGroups {
+    padding-top: 64px;
+  }
+  .support02 {
+    padding-top: 24px;
+  }
 
   .SitemapUserFlowImageCare {
     /*background-color: green;*/
