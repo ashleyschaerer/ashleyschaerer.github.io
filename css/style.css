@@ -1668,8 +1668,14 @@ h5 {
   max-width: 696px;
   margin: 0 auto;
 }
+.ConclusionStriped {
+  display: grid;
+  grid-column: span 6;
+  max-width: 696px;
+  margin: 0 auto;
+}
 
-.ConclusionandButton {
+.ConclusionandButtonStriped {
   display: grid;
   margin: 0 auto;
   padding-left: 16px;
@@ -2702,7 +2708,13 @@ h1 {
 h2 {
   /*margin-top: 180px;*/
   margin-top: 88px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
+}
+
+.NextSteps {
+  /*margin-top: 180px;*/
+  margin-top: 88px;
+  padding-bottom: 30px;
 }
 
 /*              More Than Fluffy                 */
@@ -3451,9 +3463,15 @@ grid-template-columns: 3fr 3fr;
   margin-top: 24px;
 }
 
-.ConclusionandButton {
+.ConclusionandButtonStriped {
   width: 800px;
   margin: 0 auto;
+}
+
+.NextSteps {
+  /*margin-top: 180px;*/
+  margin-top: 0px;
+  padding-bottom: 30px;
 }
 
 
