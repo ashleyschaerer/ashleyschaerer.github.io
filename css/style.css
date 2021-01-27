@@ -1701,6 +1701,14 @@ h5 {
   margin: 0 auto;
 }
 
+.ConclusionandButton {
+  display: grid;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  /*margin-bottom: 80px;*/
+}
+
 .ConclusionandButtonStriped {
   display: grid;
   margin: 0 auto;
@@ -3518,6 +3526,11 @@ grid-template-columns: 3fr 3fr;
   /*background-color: blue;*/
   width: 980px;
   margin-top: 24px;
+}
+
+.ConclusionandButton {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .ConclusionandButtonStriped {
