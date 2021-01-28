@@ -1071,8 +1071,12 @@ grid-column: span 6;
 
 .WholeProcessBG {
   /*background-color: #F0F4F4;*/
-
   padding-bottom: 64px;
+}
+
+.WholeProcessBGStripes {
+  /*background-color: #F0F4F4;*/
+  padding-bottom: 4px;
 }
 
 .test {
@@ -1712,8 +1716,8 @@ h5 {
 .ConclusionandButtonStriped {
   display: grid;
   margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-top: 10px;
+
   /*margin-bottom: 80px;*/
 }
 
@@ -2566,6 +2570,10 @@ margin-top: 15px;
   .WholeProcessBG {
    padding-bottom: 128px;
   }
+
+  .WholeProcessBGStripes {
+  }
+
 
 
   .Divider {
@@ -3536,6 +3544,7 @@ grid-template-columns: 3fr 3fr;
 .ConclusionandButtonStriped {
   width: 800px;
   margin: 0 auto;
+  padding-top: 90px;
 }
 
 .NextSteps {
