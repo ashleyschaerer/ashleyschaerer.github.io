@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: #575A5A;
+  color: #606060;
   font-family: 'Montserrat';
   background-color: white;
 
@@ -146,7 +146,7 @@ background-color: yellow;
 
 .navmenubold {
   text-decoration: none;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 
@@ -200,7 +200,7 @@ background-color: yellow;
 
 h1 {
   font-family: 'Raleway';
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-size: 3.2em;
   font-weight: 700;
   text-align: center;
@@ -217,7 +217,7 @@ h2 {
   font-family: 'Raleway';
   font-size: 2.4em;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-align: center;
   line-height: 1.5;
   padding-top: 40px;
@@ -226,7 +226,7 @@ h2 {
 
 .DesignProcessStripes {
   font-family: 'Raleway';
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-size: 2.4em;
   font-weight: 700;
   text-align: center;
@@ -238,7 +238,7 @@ h2 {
 h4{
   font-size: 1.6em;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   /*background-color: red;*/
   padding-bottom: 24px;
 
@@ -268,7 +268,7 @@ h4{
 p {
   font-size: 1.6em;
   font-weight: 400;
-  color: #575A5A;
+  color: #606060;
   line-height: 1.7;
 
 }
@@ -286,14 +286,14 @@ p {
   line-height: 1.7;
   font-family: 'Raleway';
   font-weight: 300;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .FeedbackBold {
   font-family: 'Raleway';
   font-weight:700;
   font-style: italic;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .Tagline {
@@ -307,7 +307,7 @@ p {
 
 .ExtraBold {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .captions {
@@ -355,7 +355,7 @@ footer {
 
 .FooterText {
   grid-column: span 6;
-  color: #3C3F3E;
+  color: #3D3E3D;
   /*max-width: 482px;*/
 }
 
@@ -407,7 +407,7 @@ footer {
   font-size: 0.9em;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #3C3F3E;
+  color: #3D3E3D;
   /*background-color: orange;*/
   padding-top: 12px;
 }
@@ -453,7 +453,7 @@ footer {
   font-size: 3.2em;
   font-weight: 700;
   font-family: 'Raleway';
-  color: #3C3F3E;
+  color: #3D3E3D;
   padding-left: 40px;
   /*background-color: blue;*/
 }
@@ -478,7 +478,7 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-family: 'Raleway';
 
 }
@@ -515,13 +515,13 @@ footer {
 
 .StatementBold {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 
 .LinkProject {
   text-decoration: none;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .all-work {
@@ -565,13 +565,13 @@ footer {
 
 .LinkProjectCaseStudy {
   text-decoration: none;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 
 .ProjectTextBold {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   text-align: center;
 
@@ -626,7 +626,7 @@ grid-column: span 6;
   display: grid;
   padding-top: 22px;
   padding-bottom: 24px;
-  color: #3C3F3E;
+  color: #3D3E3D;
   line-height: 1.3;
   margin-top: 40px;
 }
@@ -638,7 +638,7 @@ grid-column: span 6;
   display: grid;
   padding-top: 22px;
   padding-bottom: 24px;
-  color: #3C3F3E;
+  color: #3D3E3D;
   line-height: 1.3;
   margin-top: 40px;
 }
@@ -650,7 +650,7 @@ grid-column: span 6;
   display: grid;
   padding-top: 22px;
   padding-bottom: 24px;
-  color: #3C3F3E;
+  color: #3D3E3D;
   line-height: 1.3;
   margin-top: 40px;
 }
@@ -662,21 +662,25 @@ grid-column: span 6;
   display: grid;
   padding-top: 22px;
   padding-bottom: 24px;
-  color: #3C3F3E;
+  color: #3D3E3D;
   line-height: 1.3;
   margin-top: 40px;
 }
 
 .RoleToolBold {
   font-weight:700;
+  color: #3D3E3D;
+
 }
 
 .RoleToolBoldStripedHorses {
   font-weight:700;
+  color: #3D3E3D;
 }
 
 .RoleToolBoldHealth {
   font-weight:700;
+  color: #3D3E3D;
 }
 
 .Role {
@@ -773,7 +777,7 @@ grid-column: span 6;
   font-size: 1.6em;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -842,7 +846,7 @@ grid-column: span 6;
   font-family: 'Raleway';
   letter-spacing: 0.5px;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -960,7 +964,7 @@ grid-column: span 6;
   font-family: 'Raleway';
   letter-spacing: 0.5px;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -1074,7 +1078,7 @@ grid-column: span 6;
 
 .PhaseBoldCARE {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 
   /*color: #2A41D7;*/
 }
@@ -1105,7 +1109,7 @@ grid-column: span 6;
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 
@@ -1113,21 +1117,21 @@ grid-column: span 6;
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .research-percentageHealth {
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .research-percentageCARE {
   font-size: 2.4em;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .research-percentageStripes {
@@ -1135,7 +1139,7 @@ grid-column: span 6;
   font-family: 'Raleway';
   font-weight: 700;
   /*color: #7A9FB9;*/
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .research-percentageStripedHorses {
@@ -1144,7 +1148,7 @@ grid-column: span 6;
   letter-spacing: 0.5px;
   font-weight: 700;
   /*color: #7A9FB9;*/
-  /*color: #3C3F3E;*/
+  /*color: #3D3E3D;*/
   color: #CED3D3;
 
 
@@ -1173,7 +1177,7 @@ grid-column: span 6;
 
 .CompetitiveTextBoldHealth {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .CompetitiveTextBoldCat {
@@ -1366,7 +1370,7 @@ width: 100%;
 
 h6 {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-size: 1.6em;
   /*color: #FF6F61;*/
   padding-top: 32px;
@@ -1406,7 +1410,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   /*padding-left: 16px;*/
   margin-top: 15px;
 }
@@ -1505,7 +1509,7 @@ margin: 0 auto;
 }
 
 h3 {
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-weight: 700;
   font-size: 1.6em;
   padding-left: 16px;
@@ -1518,14 +1522,14 @@ h3 {
   font-family: 'Raleway';
   font-size: 2.4em;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .MillenialGenXHealth {
   font-family: 'Raleway';
   font-size: 2.4em;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 }
 
 .Frustrations {
@@ -1562,7 +1566,7 @@ h3 {
 
 h5 {
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   font-size: 1.6em;
   /*color: #2CB3ED;*/
   padding-top: 32px;
@@ -1572,7 +1576,7 @@ h5 {
 .HealthSubHeader {
   font-weight: 700;
   font-size: 1.6em;
-  color: #3C3F3E;
+  color: #3D3E3D;
   padding-top: 32px;
   line-height: 1.6;
   padding: 10px 16px 10px 0;
@@ -1659,13 +1663,13 @@ h5 {
 
 .ChosenOne{
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   /*padding-left: 16px;*/
   margin-top: 15px;
 }
 .ChosenOneHealth{
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
 
   /*padding-left: 16px;*/
   margin-top: 15px;
@@ -2500,7 +2504,7 @@ h5 {
 
 .BeforeAfter {
 font-weight: 700;
-color: #3C3F3E;
+color: #3D3E3D;
 /*padding-left: 16px;*/
 margin-top: 15px;
 }
@@ -3169,7 +3173,7 @@ grid-template-columns: 3fr 3fr;
   font-family: 'Raleway';
   letter-spacing: 0.5px;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -3331,7 +3335,7 @@ grid-template-columns: 3fr 3fr;
   font-family: 'Raleway';
   letter-spacing: 0.5px;
   font-weight: 700;
-  color: #3C3F3E;
+  color: #3D3E3D;
   text-decoration: none;
   height: 48px;
   border-radius: 40px;
@@ -3397,7 +3401,7 @@ grid-template-columns: 3fr 3fr;
   padding-top: 17px;
   border-radius: 40px;
   text-decoration: none;
-  color: #3C3F3E;
+  color: #3D3E3D;
   margin-top: 80px;
 }
 
