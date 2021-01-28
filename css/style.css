@@ -1340,6 +1340,18 @@ width: 100%;
   margin: 0 auto;
 }
 
+.WireframeimageCat {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  /*background-color: red;*/
+  overflow:inherit;
+  width: 100%;
+  padding-top: 56px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .PromoLandingPhotoStriped {
   margin: 0 auto;
   grid-column: span 6;
@@ -1741,6 +1753,8 @@ h5 {
 
 
 @media screen and (min-width: 375px){
+
+
 
   .captionsStripedversion {
     font-size: 1em;
@@ -2301,7 +2315,7 @@ h5 {
     display: grid;
     grid-template-columns: 550px 550px;
     grid-gap: 56px;
-    padding-top: 65px;
+    padding-top: 40px;
 }
 
 .ThreePeoplePersonaCare {
@@ -3209,8 +3223,8 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-column:span 6;
   margin: 0 auto;
-  margin-top: 40px;
   width: 696px;
+  padding-top: 90px;
 }
 
 .SitemapImageStripedHorses {
