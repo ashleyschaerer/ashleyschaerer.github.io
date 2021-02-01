@@ -749,7 +749,7 @@ grid-column: span 6;
 
 
 .prototype-buttonStripedHorses {
-  background-color: #DB4D6E;
+  background-color: #DD5273;
   width: 230px;
   font-size: 1.6em;
   font-family: 'Raleway';
@@ -852,7 +852,7 @@ grid-column: span 6;
 }
 
 .viewprototypebStriped {
-  background-color: #DB4D6E;
+  background-color: #DD5273;
   width: 230px;
   font-size: 1.6em;
   font-family: 'Raleway';
@@ -970,7 +970,7 @@ grid-column: span 6;
 }
 
 .button-user-storiesStriped {
-  background-color: #DB4D6E;
+  background-color: #DD5273;
   width: 230px;
   font-size: 1.6em;
   font-family: 'Raleway';
@@ -1073,7 +1073,7 @@ grid-column: span 6;
   color: #2A41D7;
 }
 .NumberStriped {
-  color: #DB4D6E;
+  color: #DD5273;
 }
 
 .PhaseBold {
@@ -1843,7 +1843,7 @@ h5 {
   .SubTitle {
     text-align: left;
     font-family: 'Raleway';
-    color: #DB4D6E;
+    color: #DD5273;
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 40px;
@@ -1870,7 +1870,7 @@ h5 {
   .SubTitleSpecial {
     text-align: left;
     font-family: 'Raleway';
-    color: #DB4D6E;
+    color: #DD5273;
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 40px;
@@ -2217,7 +2217,7 @@ h5 {
   .SubTitle {
     text-align: left;
     font-family: 'Raleway';
-    color: #DB4D6E;
+    color: #DD5273;
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 150px;
@@ -2246,7 +2246,7 @@ h5 {
   .SubTitleSpecial {
     text-align: left;
     font-family: 'Raleway';
-    color: #DB4D6E;
+    color: #DD5273;
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 60px;
@@ -3582,7 +3582,7 @@ grid-template-columns: 3fr 3fr;
 }
 
 .lofiwireframebuttonStriped {
-  background-color: #DB4D6E;
+  background-color: #DD5273;
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
