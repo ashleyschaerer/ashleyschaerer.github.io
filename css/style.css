@@ -49,16 +49,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-height: 80%;
-  margin-top: 40px;
 }
 
 .Industry-Analysis-logos {
   margin: 0 auto;
-  padding-top: 40px;
-
+  padding-top: 30px;
   display: grid;
   grid-column: span 6;
-
+  padding-bottom: 0px;
 }
 
 
@@ -443,8 +441,6 @@ footer {
   margin: 0 auto;
   grid-column: span 6;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-
 
 }
 
@@ -1094,7 +1090,7 @@ grid-column: span 6;
 
 .WholeProcessBG {
   /*background-color: #F0F4F4;*/
-  padding-bottom: 64px;
+  padding-bottom: 24px;
 }
 
 .WholeProcessBGStripes {
@@ -1159,18 +1155,8 @@ grid-column: span 6;
   /*color: #7A9FB9;*/
   /*color: #3D3E3D;*/
   color: #CED3D3;
-
-
-
 }
 
-.CompetitiveAnalysis02 {
-  /*padding-left: 16px;
-  padding-right: 16px;*/
-  padding-bottom: 24px;
-  max-width: 696px;
-  margin: 0 auto;
-}
 
 .CompetitiveAnalysis02Stripes {
   /*padding-left: 16px;
@@ -1191,7 +1177,6 @@ grid-column: span 6;
 
 .CompetitiveTextBoldCat {
   font-weight: 700;
-
 }
 
 .ThreeCompetitors {
@@ -1202,12 +1187,10 @@ grid-column: span 6;
   padding-bottom: 24px;
   margin-top: 32px;
 }
-
 .ThreeCompetitorsCat {
   /*background-color: #FFFFFF;
   padding-left: 16px;
   padding-right: 16px;*/
-  padding-top: 24px;
   padding-bottom: 24px;
   margin-top: 32px;
 }
@@ -1241,6 +1224,8 @@ grid-column: span 6;
   margin-top: 20px;
 }
 
+
+
 .MacBook {
   margin: 0 auto;
   grid-column: span 6;
@@ -1248,26 +1233,16 @@ grid-column: span 6;
   /*background-color: pink;*/
   overflow:inherit;
   width: 100%;
-  padding-top: 56px;
+  padding-top: 30px;
   max-width: 622px;
   margin: 0 auto;
 
 }
 
 
-
-
-.ProcessImages {
-  display: block;
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 100%;
-}
-
 .SitemapUserFlowImage {
   /*background-color: green;*/
   width: 100%;
-  margin-top: 56px;
 }
 
 .SitemapUserFlowImageCare {
@@ -1287,7 +1262,7 @@ grid-column: span 6;
   margin: 0 auto;
 
   grid-column-gap: 75px;
-  margin-top: 20px;
+  margin-top: 0px;
   /*padding-top: 123px;*/
 }
 
@@ -1329,6 +1304,8 @@ width: 100%;
   margin: 0 auto;
   grid-column: span 6;
   max-width: 696px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .ThreePeoplePersonaCare {
@@ -1353,17 +1330,6 @@ width: 100%;
   margin: 0 auto;
 }
 
-.WireframeimageCat {
-  margin: 0 auto;
-  grid-column: span 6;
-  display: grid;
-  /*background-color: red;*/
-  overflow:inherit;
-  width: 100%;
-  padding-top: 56px;
-  max-width: 980px;
-  margin: 0 auto;
-}
 
 .PromoLandingPhotoStriped {
   margin: 0 auto;
@@ -1382,7 +1348,6 @@ h6 {
   color: #3D3E3D;
   font-size: 1.6em;
   /*color: #FF6F61;*/
-  padding-top: 32px;
   line-height: 1.6;
   /*padding: 10px 16px 10px 0;*/
 
@@ -1451,18 +1416,20 @@ grid-template-columns: 3fr 3fr;
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 0 auto;
+  padding-top: 30px;
 }
 .group03 {
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 0 auto;
+  padding-top: 30px;
+
 }
 
 .PreferenceYes {
 /*width: 184px;*/
 grid-column: 1fr;
 color: #FF1194;
-padding-top: 30px;
 width: 100%;
 text-align: center;
 margin: 0 auto;
@@ -1471,7 +1438,6 @@ margin: 0 auto;
 .PreferenceNo {
 /*width: 184px;*/
 grid-column: 1fr;
-padding-top: 30px;
 width: 100%;
 text-align: center;
 margin: 0 auto;
@@ -1498,7 +1464,8 @@ margin: 0 auto;
 }
 
 .MillenialPersona {
-  background-color: #FFFFFF;
+  /*background-color: #E9F5D1;*/
+  border: 4px solid #E9F5D1;
   /*margin-left: 16px;
   margin-right: 16px;*/
   margin: 56px auto auto auto ;
@@ -1508,7 +1475,7 @@ margin: 0 auto;
 }
 
 .GenXPersona {
-  background-color: #FFFFFF;
+  border: 4px solid #E9F5D1;
   /*margin-left: 16px;
   margin-right: 16px;*/
   margin: 40px auto auto auto;
@@ -1560,8 +1527,6 @@ h3 {
   padding: 10px 16px 10px 33px;
   text-indent: -1em;
 }
-
-
 
 .UserStories {
   max-width: 696px;
@@ -1628,7 +1593,6 @@ h5 {
   margin: 0 auto;
 }
 
-
 .UserTestingWidth {
   max-width: 696px;
   margin: 0 auto;
@@ -1637,6 +1601,7 @@ h5 {
 .ListUserTesting {
   max-width: 412px;
   margin: 0 auto;
+  padding-top: 0px;
 }
 
 .ExecutionText {
@@ -1662,14 +1627,6 @@ h5 {
   width: 297px;
 }
 
-.PreferenceTopText {
-  /*background-color: red;*/
-  margin-top: 56px;
-  /*padding-left: 16px;*/
-  /*font-weight: 700;
-  color: #FF6F61;*/
-}
-
 .ChosenOne{
   font-weight: 700;
   color: #3D3E3D;
@@ -1679,7 +1636,6 @@ h5 {
 .ChosenOneHealth{
   font-weight: 700;
   color: #3D3E3D;
-
   /*padding-left: 16px;*/
   margin-top: 15px;
 }
@@ -1767,7 +1723,64 @@ h5 {
 
 @media screen and (min-width: 375px){
 
+  h6 {
+    padding-top: 10px;  }
 
+  .WireframeimageCat {
+    margin: 0 auto;
+    grid-column: span 6;
+    display: grid;
+    overflow:inherit;
+    width: 100%;
+    padding-top: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .PreferenceTopText {
+    /*background-color: red;*/
+    margin-top: 25px;
+    /*padding-left: 16px;*/
+    /*font-weight: 700;
+    color: #FF6F61;*/
+  }
+
+  .ProcessImages {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+.SecondCompetitor {
+  padding-top: 30px;
+}
+
+.ThirdCompetitor {
+  padding-top: 30px;
+}
+
+
+
+  .numberfour {
+    padding-top: 40px;
+  }
+
+
+  .CompetitiveAnalysis02 {
+    /*padding-left: 16px;
+    padding-right: 16px;*/
+    max-width: 696px;
+    margin: 0 auto;
+  }
+
+  .CompetitiveAnalysis02Care {
+    /*padding-left: 16px;
+    padding-right: 16px;*/
+    max-width: 696px;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
 
   .captionsStripedversion {
     font-size: 1em;
@@ -1794,18 +1807,18 @@ h5 {
     padding-right: 230px;*/
     max-width: 980px;
     margin: 0 auto;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     margin-top: 20px;
     /*padding-top: 123px;*/
   }
 
   .numberoneUser {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .numbertwoUser {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
 
@@ -1833,7 +1846,7 @@ h5 {
     color: #DB4D6E;
     font-size: 1.6em;
     font-weight: 700;
-    padding-top: 80px;
+    padding-top: 40px;
   }
 
   .SubTitleCat {
@@ -1842,7 +1855,7 @@ h5 {
     color: #FF1194;
     font-size: 1.6em;
     font-weight: 700;
-    padding-top: 80px;
+    padding-top: 40px;
   }
 
   .SubTitleHealth {
@@ -1851,7 +1864,7 @@ h5 {
     color: #14A7AF;
     font-size: 1.6em;
     font-weight: 700;
-    padding-top: 70px;
+    padding-top: 40px;
   }
 
   .SubTitleSpecial {
@@ -1880,7 +1893,6 @@ h5 {
     display: grid;
     grid-column: span 6;
     text-align: center;
-
   }
 
   .ProjectTextCat {
@@ -1888,17 +1900,16 @@ h5 {
     display: grid;
     grid-column: span 6;
     text-align: center;
-
   }
 
   .HomepageHeroImage {
     /*width: 530px;*/
     margin: 0 auto;
     width: 90%;
-
     display: block;
     padding-top: 20px;
   }
+
   .HomepageHeroImage02 {
     /*width: 420px;*/
     margin: 0 auto;
@@ -2031,17 +2042,125 @@ h5 {
   padding-top: 16px;
 }
 
-}
-
-
 .CompetitorTitleStripedHorses {
   text-align: left;
   margin-bottom: -40px;
   padding: 0 auto;
 }
 
+.SitemapImageCat {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.BrandingLogoCat {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.containerUserTesting02 {
+  display: grid;
+  grid-column:span 6;
+  /*padding-left: 301px;
+  padding-right: 301px;*/
+  padding-top: 5px;
+  max-width: 1124px;
+  margin: 0 auto;
+  /*padding-top: 123px;*/
+}
+.SitemapImage {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.sketchesDuo {
+  padding-top: 0px;
+}
+
+.Gridmacbook {
+  display: grid;
+  grid-column:span 6;
+  /*grid-gap: 16px;*/
+  margin-top: 0px;
+
+}
+
+.SitemapImageStripedHorses {
+  display: grid;
+  grid-column:span 6;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+
 
 @media screen and (min-width: 991px){
+
+  h6 {
+    padding-top: 32px;
+  }
+
+  .WireframeimageCat {
+    margin: 0 auto;
+    grid-column: span 6;
+    display: grid;
+    overflow:inherit;
+    width: 100%;
+    padding-top: 50px;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .PreferenceTopText {
+    /*background-color: red;*/
+    margin-top: 50px;
+    /*padding-left: 16px;*/
+    /*font-weight: 700;
+    color: #FF6F61;*/
+  }
+
+  .ProcessImages {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .SecondCompetitor {
+    padding-top: 0px;
+  }
+
+  .ThirdCompetitor {
+    padding-top: 0px;
+  }
+
+
+  .numberfour {
+    padding-top: 0px;
+  }
+
+  .CompetitiveAnalysis02 {
+    /*padding-left: 16px;
+    padding-right: 16px;*/
+    max-width: 696px;
+    margin: 0 auto;
+  }
+
+  .CompetitiveAnalysis02Care {
+    /*padding-left: 16px;
+    padding-right: 16px;*/
+    max-width: 696px;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
 
   .Solution {
     display: grid;
@@ -2103,7 +2222,6 @@ h5 {
     font-weight: 700;
     padding-top: 150px;
     padding-bottom: 20px;
-    /*background-color: blue;*/
   }
   .SubTitleCat {
     text-align: left;
@@ -2113,7 +2231,6 @@ h5 {
     font-weight: 700;
     padding-top: 150px;
     padding-bottom: 20px;
-    /*background-color: blue;*/
   }
 
   .SubTitleHealth {
@@ -2122,15 +2239,36 @@ h5 {
     color: #14A7AF;
     font-size: 1.6em;
     font-weight: 700;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 20px;
-    /*background-color: blue;*/
   }
 
   .SubTitleSpecial {
     text-align: left;
     font-family: 'Raleway';
     color: #DB4D6E;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    /*background-color: blue;*/
+  }
+
+  .SubTitleSpecialCat {
+    text-align: left;
+    font-family: 'Raleway';
+    color: #FF1194;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    /*background-color: blue;*/
+  }
+
+  .SubTitleSpecialHealth {
+    text-align: left;
+    font-family: 'Raleway';
+    color: #14A7AF;
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 60px;
@@ -2191,6 +2329,7 @@ h5 {
     grid-template-columns: 200px 200px 167px;
     width: 980px;
     grid-gap: 206px;
+    padding-top: 50px;
   }
 
 
@@ -2267,8 +2406,6 @@ h5 {
       border-radius: 2px;
     }
 
-
-
     .Project04 {
       width: 500px;
       /*background-color: #F2F6F2;*/
@@ -2291,8 +2428,6 @@ h5 {
       /*margin-top: 64px;*/
       border-radius: 2px;
     }
-
-
 
   /*  .Project03 {
       width: 520px;
@@ -2321,7 +2456,6 @@ h5 {
         width: 300px;
         margin: 0 auto;
         display: block;
-
       }
 
       .HomepageHeroImage04 {
@@ -2348,16 +2482,13 @@ h5 {
 
   }
 
-
-
-
   .ThreePeoplePersona {
     max-width: 1156px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 550px 550px;
     grid-gap: 56px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .ThreePeoplePersonaCare {
@@ -2435,7 +2566,6 @@ h5 {
   .UserTestingCatList {
     display: grid;
     grid-template-columns: 3fr 3fr;
-    margin-top: 50px;
     max-width: 1124px;
     grid-gap: 32px;
   }
@@ -2446,7 +2576,6 @@ h5 {
     margin-top: 50px;
     width: 980px;
     grid-gap: 32px;
-    background-color: green;
   }
 
   .CatConclusion {
@@ -2475,6 +2604,13 @@ h5 {
     /*background-color: green;*/
     grid-column: 3fr;
  }
+
+ .LeftCat02 {
+   display: grid;
+   margin: 0 auto;
+   /*background-color: green;*/
+   grid-column: 3fr;
+}
 
  .LeftCatStriped {
    display: grid;
@@ -2543,7 +2679,7 @@ h5 {
   grid-column-gap: 32px;
   grid-row-gap: 90px;
   margin-top: 70px;
-  padding-top: 70px;
+  padding-top: 30px;
   max-width: 1124px;
   margin: 0 auto;
   /*padding-top: 123px;*/
@@ -2587,6 +2723,7 @@ grid-column: 1fr;
   grid-column-gap: 64px;
   padding-left: 123px;
   padding-right: 123px;
+  padding-top: 30px;
   /*width: 1266px;*/
   margin: 0 auto;
   /*padding-top: 123px;*/
@@ -2603,14 +2740,14 @@ grid-column: 1fr;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 32px;
-
+  padding-top: 0px;
   /*background-color: blue;*/
 }
 .group03 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 32px;
-
+  padding-top: 0px;
 }
 
 .PreferenceYes {
@@ -2618,14 +2755,11 @@ font-weight: 700;
 grid-column: 1fr;
 color: #FF1194;
 /*padding-left: 16px;*/
-/*background-color: red;*/
-margin-top: 15px;
 }
 .PreferenceNo {
 grid-column: 1fr;
 /*padding-left: 16px;*/
 /*background-color: red;*/
-margin-top: 15px;
 }
 .PreferenceTestingImages {
   display: grid;
@@ -2640,7 +2774,7 @@ margin-top: 15px;
 
 
   .WholeProcessBG {
-   padding-bottom: 128px;
+   padding-bottom: 38px;
   }
 
   .WholeProcessBGStripes {
@@ -2666,17 +2800,14 @@ margin-top: 15px;
 
   .Portrait {
     padding-top: 190px;
-
   }
 
   .Story {
     padding-top: 100px;
   }
 
-
 h1 {
   padding-top: 190px;
-
 }
 
 /*h2 {
@@ -2728,11 +2859,9 @@ h1 {
   font-size: 2.4em;
 }
 
-
-
 .DashboardCaseStudy {
   max-width: 980px;
-  margin-top: 64px;
+  margin-top: 50px;
 }
 
 .RoleAndTool {
@@ -2743,7 +2872,6 @@ h1 {
   grid-gap: 16px;
   height: 192px;
   margin-top: 64px;
-
 }
 
 .RoleAndToolStripedHorses {
@@ -2774,9 +2902,7 @@ h1 {
   grid-gap: 16px;
   height: 192px;
   margin-top: 64px;
-
 }
-
 
 .Role {
   display: grid;
@@ -2784,6 +2910,7 @@ h1 {
   /*background-color: yellow;*/
   margin: 0 auto;
 }
+
 .RoleStripedHorses {
   display: grid;
   grid-column: span 2;
@@ -2844,7 +2971,7 @@ h2 {
   /*margin-top: 180px;*/
   margin-top: 88px;
   padding-bottom: 30px;
-}
+  }
 
 .DesignProcessStripes {
   /*margin-top: 180px;*/
@@ -2898,7 +3025,7 @@ h2 {
 
   grid-column-gap: 75px;
   grid-row-gap: 75px;
-  margin-top: 70px;
+  margin-top: 40px;
   /*padding-top: 123px;*/
 }
 
@@ -2960,7 +3087,7 @@ h2 {
   margin: 0 auto;
 
   grid-column-gap: 75px;
-  margin-top: 20px;
+  margin-top: 40px;
   /*padding-top: 123px;*/
 }
 
@@ -2982,6 +3109,10 @@ width: 100%;
   grid-column: span 6;
 }
 
+.CompetitiveAnalysis02Care {
+  grid-column: span 6;
+}
+
 .CompetitiveAnalysis02Stripes {
   grid-column: span 6;
 }
@@ -2992,8 +3123,8 @@ width: 100%;
   grid-gap: 80px;
   padding-left: 123px;
   padding-right: 123px;
-  margin-top: 80px;
-  padding-top: 48px;
+  margin-top: 15px;
+  padding-top: 40px;
   /*margin-top: 123px;
   margin-bottom: 128px;*/
 }
@@ -3004,8 +3135,9 @@ width: 100%;
   grid-gap: 80px;
   padding-left: 123px;
   padding-right: 123px;
-  margin-top: 10px;
-  padding-top: 48px;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   /*margin-top: 123px;
   margin-bottom: 128px;*/
 }
@@ -3123,7 +3255,7 @@ grid-template-columns: 3fr 3fr;
   /*padding-left: 214px;
   padding-right: 214px;*/
   grid-gap: 63px;
-  margin-top: 100px;
+  margin-top: 50px;
 
 
 }
@@ -3276,19 +3408,17 @@ grid-template-columns: 3fr 3fr;
   grid-column:span 6;
   margin: 0 auto;
   width: 696px;
-  padding-top: 90px;
+  padding-top: 130px;
+  padding-bottom: 1px;
 }
 
 .SitemapImageStripedHorses {
   display: grid;
   grid-column:span 6;
   margin: 0 auto;
-  margin-top: 55px;
+  padding-top: 55px;
   width: 696px;
 }
-
-
-
 
 .Gridmacbook {
   display: grid;
@@ -3297,7 +3427,7 @@ grid-template-columns: 3fr 3fr;
   padding-left: 112px;
   padding-right: 112px;
   grid-row-gap: 50px;
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 .GridmacbookWIREFRAMES {
@@ -3305,15 +3435,13 @@ grid-template-columns: 3fr 3fr;
   grid-template-columns: 3fr 3fr;
   padding-left: 112px;
   padding-right: 112px;
-  margin-top: 60px;
-
+  padding-top: 20px;
 }
 
 .ListUserTesting {
   max-width: 412px;
   margin: 0 auto;
-  margin-top: 65px;
-
+  padding-top: 18px;
 }
 
 
@@ -3512,13 +3640,11 @@ grid-template-columns: 3fr 3fr;
 }
 
 .PreferenceGrid {
-  /*background-color: yellow;*/
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 0 auto;
   width: 980px;
   grid-column-gap: 94px;
-  margin-top: 50px;
 }
 
 /*.PreferenceWidth {
@@ -3567,8 +3693,6 @@ grid-template-columns: 3fr 3fr;
   width: 443px;
   margin: 0 auto;
   padding-top: 81px;
-
-
 }
 
 
@@ -3590,13 +3714,11 @@ grid-template-columns: 3fr 3fr;
 .UsabilityTestingText {
   display: grid;
   height: 420px;
-
 }
 
 .ImageRight {
   display: grid;
   margin-top: 190px;
-
 }
 
 .ImageBottom {
