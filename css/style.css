@@ -332,8 +332,6 @@ p {
 }
 
 
-
-
 footer {
   background-color: #F0F4F4;
   display: grid;
@@ -347,8 +345,6 @@ footer {
   /*max-width: 980px;*/
   /*margin: 0 auto;*/
 }
-
-
 
 
 .FooterText {
@@ -390,8 +386,6 @@ footer {
   grid-column: 1fr;
 }
 
-
-
 .CopyrightAndButton {
   display: grid;
   grid-column: span 6;
@@ -420,6 +414,7 @@ footer {
 
 
 /***homepage***/
+
 
 .Project03:hover {
   background-color: #F0F4F4;
@@ -1970,7 +1965,7 @@ h5 {
     /*background-color: #F2F6F2;*/
     height: 350px;
     width: 350px;
-
+    /*border: 2px solid #F0F4F4;*/
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
@@ -1998,6 +1993,8 @@ h5 {
   .Project04 {
     /*height: 300px;*/
     /*background-color: #F2F6F2;*/
+    /*border: 2px solid #F0F4F4;*/
+
     height: 350px;
     width: 350px;
     border-radius: 2px;
@@ -2460,7 +2457,7 @@ h5 {
 
       .HomepageHeroImage04 {
         width: 370px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
         display: block;
         margin: 0 auto;
         margin-top: 40px;
